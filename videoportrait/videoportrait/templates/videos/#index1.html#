@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Joan Logue: Video Portraits</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+td img {display: block;}body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+</style>
+
+<style type="text/css">
+<!--
+-->
+
+.yrollover1 a{position:relative;}/* set stacking context*/
+.yrollover1 a span{
+          visibility:hidden;/* hide message initially*/
+          position:absolute;
+          /*-52*/
+          top:-45px;
+          /*501*/
+          left:400px;
+          width:120px;
+          padding:0px;
+          background:#333333;
+          color:#252525;
+          border:0px inset green;
+          background-color:#252525;
+          height:80px;
+}
+.yrollover1 a:hover{visibility:visible}/* ie bug needed to make span show*/
+.yrollover1 a:hover span{visibility:visible;}/* reveal image*/
+</style>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#252525">
+
+<table border="0" cellpadding="0" cellspacing="0" width="1057">
+       <tr><td>&nbsp;</td></tr>  
+  <tr>
+   <td rowspan="4" width="35">&nbsp;</td>
+   <td colspan="3" class="class2" align="left"><table width="911" border="0" cellpadding="0" cellspacing="0">
+    <tr><td width="748">&nbsp;</td><td width="163" align="left"><a href="about.php">about</a> &nbsp; &nbsp;<a href="mailto:videoportrait@gmail.com">contact</a> &nbsp; &nbsp;<a href="index.php">home</a> </td>
+
+    </tr></table></td>
+   
+  </tr>
+  <tr>
+   <td width="473"><img name="index15B_r2_c2" src="images/index15B_r2_c2.gif" width="473" height="104" border="0" id="index15B_r2_c2" alt="" /></td>
+   <td rowspan="2" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+   <td><br /><br /><br /></td>
+  </tr>
+
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="1057">
+  <tr class="class1">
+   <td> &nbsp; &nbsp; &nbsp; </td>
+   <td class="clelevenGR" valign="top" width="309"><p>
+   <strong>
+   <a href="level2.php?category=firstvideo">FIRST  VIDEO PORTRAIT 1971</a><br />
+
+   West Africa: Outside Looking In<br /><br />
+  <a href="level2.php?category=americanartists">AMERICAN  ARTISTS 1975-1989</a><br /><br />
+  <a href="level2.php?category=civilrights">CIVIL RIGHTS PIONEERS</a><br /><br />
+  <a href="level2.php?category=familyportraits">FAMILY PORTRAIT SERIES  1979-1980</a><br /><br />
+  <a href="level2.php?category=neighborhood">THE NEIGHBORHOOD  SERIES 1972-2005</a><br /><br />
+  <a href="level2.php?category=selfportraits">VIDEO PORTRAIT: SELF  PORTRAITS</a><br /><br />
+
+			<a href="level2.php?category=portraitsforinstallation">PORTRAITS FOR INSTALLATION</a><br /><br />
+			 <a href="level2.php?category=valentine"> VALENTINE SERIES: CALIFORNIA FRIENDS. 1974</a><br /><br />
+	      <a href="level2.php?category=newyork">NEW YORK ARTIST 30 SECOND PORTRAITS 1979-1982 <br /><br>
+		      <a href="level2.php?category=frenchartists">FRENCH ARTIST 30 SECOND PORTRAITS 1982-1983<br /><br> 
+	      <a href="level2.php?category=sanfrancisco">SAN FRANCISCO ARTIST 30 SECOND PORTRAITS 1984<br /><br>
+		      <a href="level2.php?category=frenchwriters">FRENCH WRITERS 30 SECOND PORTRAITS 1985<br /><br>
+
+	      <a href="level2.php?category=berlinseries">BERLIN SERIES 30 SECOND PORTRAITS 1986</a><br /><br>
+	    <a href="level2.php?category=newengland">NEW ENGLAND FISHERMEN  30 SECOND PORTRAITS 1984-1985</a> <br><br />
+                         <a href="level2.php?category=fivecomposers">5 COMPOSERS 5  COUNTRIES: 1988<br /><br>
+		 <a href="level2.php?category=digitallimmings">DIGITAL LIMNINGS <br />
+                         Traditional Dancers: Burma, China, Hawaii, Japan, North India, South India, Spain. 2001</a> <br />
+
+        </strong>
+
+   </td>
+<td width="100">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td valign="top"> 
+    <table>
+<tr class="class1">
+   <td class="clelevenGR" valign="top">
+<span class="clHeaderportf">FIRST VIDEO PORTRAIT 1971</span><br /><br /><strong>West Africa: Outside Looking In<br><br>VIDEO PORTRAITS FOR INSTALLATIONS</strong><br /><br />   </td>
+
+   </tr>
+<tr class="class1">
+<td class="styletiny">
+  <table border="0" cellspacing="8"><tr><td valign="top"><a href="level3.php?category=firstvideo&videosrc=West_Africa1_72.flv""><img src="thumbnails/West_Africa1_72.jpg
+"></a><br><font size="2">West Africa: Outside Looking In <br></font></td><td valign="top"><a href="level3.php?category=firstvideo&videosrc=womenworking.flv""><img src="thumbnails/womenworking.jpg
+"></a><br><font size="2">Women Working <br>Sucromu Liberia 1971</font></td><td valign="top"><a href="level3.php?category=firstvideo&videosrc=weaver.flv""><img src="thumbnails/weaver.jpg
+"></a><br><font size="2">Weaver & Tailor <br>Sucromu Liberia 1971</font></td></tr></table></td>
+</tr>
+  </table>
+  </tr>
+
+</table>
+
+</body>
+</html>
+{% if category_view %}
+    <ul>
+    {% for category in category_view %}
+        <li><a href="{% url category_detail category.id %}">{{ category.title }}</a></li>
+	<ul>
+	{% for video in category.videos.all %}
+	  <li><a href="{% url video_detail video.id %}">{{ video.title }}</a></li>
+	  {% endfor %}
+	</ul>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No categories are available.</p>
+{% endif %}

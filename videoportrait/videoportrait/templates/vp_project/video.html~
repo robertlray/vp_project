@@ -1,0 +1,102 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!-- saved from url=(0014)about:internet --> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>Joan Logue: Video Portraits</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="google-site-verification" content="HnwdRWNFrBFTHwkEQhxenyojHpelHEPyzOlpArbFEcY" /> 
+<style type="text/css"> 
+td img {display: block;}body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+</style> 
+
+<style type="text/css"> 
+<!--
+-->
+ 
+.yrollover1 a{position:relative;}/* set stacking context*/
+.yrollover1 a span{
+          visibility:hidden;/* hide message initially*/
+          position:absolute;
+          /*-52*/
+          top:-45px;
+          /*501*/
+          left:400px;
+          width:120px;
+          padding:0px;
+          background:#333333;
+          color:#252525;
+          border:0px inset green;
+          background-color:#252525;
+          height:80px;
+}
+.yrollover1 a:hover{visibility:visible}/* ie bug needed to make span show*/
+.yrollover1 a:hover span{visibility:visible;}/* reveal image*/
+</style> 
+ 
+<link href="/media/css/styles.css" rel="stylesheet" type="text/css" /> 
+</head> 
+
+<body bgcolor="#252525"> 
+<table border="0" cellpadding="0" cellspacing="0" width="1057"> 
+       <tr><td>&nbsp;</td></tr>  
+  <tr> 
+   <td rowspan="4" width="35">&nbsp;</td> 
+   <td colspan="3" class="class2" align="left"><table width="911" border="0" cellpadding="0" cellspacing="0"> 
+    <tr><td width="748">&nbsp;</td><td width="163" align="left"><a href="/../vp_project/about.html">about</a> &nbsp; &nbsp;<a href="mailto:videoportrait@gmail.com">contact</a> &nbsp; &nbsp;<a href="/vp_project/">home</a> </td> 
+    </tr></table></td> 
+   
+  </tr> 
+  <tr> 
+   <td width="473"><img name="index15B_r2_c2" src="/media/images/index15B_r2_c2.gif" width="473" height="104" border="0" id="index15B_r2_c2" alt="" /></td> 
+   <td rowspan="2" colspan="2">&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><br /><br /><br /></td> 
+  </tr> 
+ 
+</table> 
+
+<table border="0" cellpadding="0" cellspacing="0" width="1057"> 
+   <tr class="class1"> 
+   <td width="25"> </td> 
+<td valign="top" width="500"> 
+<table class="clelevenGR" valign="top" width="320" border="0" cellpadding="0" cellspacing="0" height="400"> 
+<tr><td valign="top" bgcolor="#797979"> 
+
+<script type='text/javascript' src='/media/jw_player/swfobject.js'></script> 
+ 
+<div id='mediaspace'>This text will be replaced</div> 
+
+<script type='text/javascript'> 
+  var so = new SWFObject('/media/jw_player/player.swf','mpl','340','260','9');
+  so.addParam('allowfullscreen','false');
+  so.addParam('allowscriptaccess','always');
+  so.addParam('wmode','opaque');
+  so.addVariable('file','/media/{{ video.video_name }}');
+  so.addVariable('logo','');
+  so.addVariable('controlbar','none');
+  so.addVariable('autostart','true');
+  so.addVariable('icons','false');
+  so.write('mediaspace');
+</script> 
+</br> 
+ <span class="clelevenDRsm"> 
+   <br /> <strong>&nbsp; {{ video.title }} <br>&nbsp;  England<br>&nbsp; <br /></strong></td></tr> 
+</table> 
+   </td> 
+<td valign="top" class="clelevenGRsm">
+<span class="clHeaderportf">
+{{ video.category.title }}
+</span><br /><br />
+   {% for vid in video.category.videos.all  %}
+   <a href="/vp_project/video/{{ vid.id }}">{{ vid.title }}</a>
+   <br>
+   {% endfor %}
+
+  
+

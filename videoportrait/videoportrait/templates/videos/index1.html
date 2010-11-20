@@ -1,0 +1,14 @@
+{% if category_view %}
+    <ul>
+    {% for category in category_view %}
+        <li><a href="{% url category_detail category.id %}">{{ category.title }}</a></li>
+	<ul>
+	{% for video in category.videos.all %}
+	  <li><a href="{% url video_detail video.id %}">{{ video.title }}</a></li>
+	  {% endfor %}
+	</ul>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No categories are available.</p>
+{% endif %}

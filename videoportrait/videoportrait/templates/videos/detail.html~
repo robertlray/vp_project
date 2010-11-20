@@ -1,0 +1,6 @@
+<h1>{{ category.title }}</h1>
+<ul>
+{% for video in category.video_set.all %}
+    <li>{{ video.video }}</li>
+{% endfor %}
+</ul>

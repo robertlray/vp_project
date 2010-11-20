@@ -1,0 +1,126 @@
+/* CSS Document */
+
+<style type=text/css>
+
+body {
+	background-color: #333333;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+p.yrollover1 {
+
+    margin-top: .5em;
+}
+
+td { font-family: arial, verdana, helvetica; COLOR: #aeaeae; font-size: 13pt;
+}
+
+/*
+ Class0 = category titled
+*/
+.class0 { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class0 A:visited { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class0 A:link, A:hover { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class0 A:active { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class0 A:hover { 
+	COLOR: #E4BE6D; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+
+/*
+ Class1 - Video Titles
+*/
+
+.class1 { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class1 A:visited { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class1 A:link, A:hover { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class1 A:active { 
+	COLOR: #aeaeae; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+.class1 A:hover { 
+	COLOR: #E4BE6D; text-decoration: none; font-weight: normal; font-style: normal; font-family: arial, verdana, helvetica; font-size: 11pt;
+}
+
+
+/*
+.class1 A:visited {
+	COLOR: #aeaeae; text-decoration: none;
+} 
+
+.class1 A:hover {
+	COLOR: #E4BE6D; text-decoration: none;
+	/*E29D36*/
+/*
+}
+.class1 A:active {
+	COLOR: #aeaeae; text-decoration: none;
+}
+*/
+
+/* class2 links are used for contact and about*/
+.class2 A:link, A:visited, A:active{ 
+	font-family: arial, verdana, helvetica; COLOR: #aeaeae; text-decoration: none; font-size: 10pt; font-weight:bold;
+}
+
+.class2 { 
+	font-family: arial, verdana, helvetica; COLOR: #aeaeae; text-decoration: none; font-size: 10pt; font-weight:bold;
+}
+
+
+
+/*  Class 3 is for text descriptions */
+.class3 {
+    font-family: arial, verdana, helvetica; COLOR: #aeaeae; text-decoration: none; font-size: 8pt;
+}
+/*
+.class2 A:visited {
+
+}
+.class2 A:hover {
+	COLOR: #E4BE6D; text-decoration: none;
+}
+.class2 A:active {
+	COLOR: #aeaeae; text-decoration: none;
+}
+*/
+
+
+.stylesm {font-family: arial, verdana, helvetica; COLOR: #aeaeae; font-size: 10pt;
+}
+
+.clelevenGR {font-family: arial, verdana, helvetica; COLOR: #aeaeae; font-size: 13pt;
+}
+
+.clelevenGRsm {font-family: arial, verdana, helvetica; COLOR: #CDCDCD; font-size: 11pt;
+}
+
+.clelevenDRsm {font-family: arial, verdana, helvetica; COLOR: #333333; font-size: 11pt;
+}
+
+.clHeaderportf {font-family: arial, verdana, helvetica; COLOR: #E4BE6D; font-size: 14pt; font-weight:bold;
+}
+
+.styletiny {font-family: arial, verdana, helvetica; COLOR: #ff0000; font-size: 8pt;
+}
+
+</style>

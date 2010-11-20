@@ -1,0 +1,9 @@
+"Michael Nyman, England","nyman.flv","nyman.jpg"
+
+"Carles Santos, Spain","Santos_Carles2.flv","santos.jpg"
+
+"Alvin Currin, Italy","Curran_Alvin.flv","curran.jpg"
+
+"Michael Levinas, France","Levinas_Michael.flv","levinas.jpg"
+
+"Tod Machover, USA","Machover_Tod.flv","muchover.jpg"

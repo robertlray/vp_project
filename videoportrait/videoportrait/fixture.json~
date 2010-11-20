@@ -1,0 +1,7421 @@
+[
+  {
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "category", 
+      "name": "category", 
+      "app_label": "vp_project"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "contenttype", 
+      "name": "content type", 
+      "app_label": "contenttypes"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "group", 
+      "name": "group", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "logentry", 
+      "name": "log entry", 
+      "app_label": "admin"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "message", 
+      "name": "message", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "permission", 
+      "name": "permission", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "session", 
+      "name": "session", 
+      "app_label": "sessions"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "site", 
+      "name": "site", 
+      "app_label": "sites"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "user", 
+      "name": "user", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "video", 
+      "name": "video", 
+      "app_label": "vp_project"
+    }
+  }, 
+  {
+    "pk": "6427b76e82105b4da14663f0c0d2d15b", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2010-11-20 11:53:36", 
+      "session_data": "gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k\ncy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LmFkMjJiMDkxYjVmNTNmOTkwNmZk\nNDkzNGFhNTU3NjNm\n"
+    }
+  }, 
+  {
+    "pk": "7db7501c97a60cd70b331392ea03c3cf", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2010-12-04 12:56:59", 
+      "session_data": "gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k\ncy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LmFkMjJiMDkxYjVmNTNmOTkwNmZk\nNDkzNGFhNTU3NjNm\n"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "example.com", 
+      "name": "example.com"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 18, 
+      "description": "My work in video portraiture began in 1971 while working in Sucromu, a West African bush community. One morning as I was setting up my video portapac, a young boy from the village stood in front of my camera. He stared silently into the lens. It was at this moment I realized that the face is in a constant state of flux; the real time video exposes and makes public the sequences of silent thoughts.", 
+      "title": "FIRST VIDEO PORTRAIT 1971"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 17, 
+      "description": "Through an intimate and elegant use of the medium, Joan Logue pioneered and defined the art of video portraiture. I have found that artists like silence, and in the video portraits the viewer is allowed a personal view of an artist in his own private thoughts and world. Original length of silent portraits for installations: 10-20 minutes each.", 
+      "title": "AMERICAN ARTISTS 1975-1989"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 16, 
+      "description": "Civil Rights Pioneers Rosa Parks and Cesar Chavez portraits were both made in 1989. Graciously, both Mrs. Parks and Mr. Chavez agreed to sit for their video portraits in silence. The viewer is now able to observer for him or herself, these two exceptional Americans who fought for our human dignity. Later I took my portrait of Rosa Parks from 1989 and joined it with the 2009 ceremonial Inauguration of President Obama 2009.", 
+      "title": "CIVIL RIGHTS PIONEERS"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 15, 
+      "description": "Original length: vary in length from 2 minutes - 20 minutes each.", 
+      "title": "FAMILY PORTRAIT SERIES 1979-1980"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 14, 
+      "description": "Each Neighborhood Series include approximately ten portraits per series. Original length: Portraits in these series range from 10-20 minutes each.", 
+      "title": "THE NEIGHBORHOOD SERIES 1972-2005"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 13, 
+      "description": "Original length : vary from 2 seconds to 15 minutes.", 
+      "title": "VIDEO PORTRAIT: SELF PORTRAITS"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 12, 
+      "description": "Original length of silent portraits for installation: 10-20 minutes each. \u00a91971-2010 A subject being recorded cannot hide behind his or her smile for long; thoughts and feelings begin to be exposed without verbal expression. The viewer is confronted with this contemplation and silence, witnessing a person speaking within him or herself. The Silent Video Portraits were made to be seen as the next step in portraiture - - A portrait in real time.", 
+      "title": "PORTRAITS FOR INSTALLATION "
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 11, 
+      "description": "Ren\u00e9 and Georgette Magritte With Their Dog After The War - Originally produced as a music video for Paul Simon\u2019s song, this video is a tribute to Magritte\u2019s work and a visual interpretation of Simon\u2019s music and lyrics. This video won many awards for its unique and first time use of the Mirage and ADO to create the technologically surreal images. It was premi\u00e8red on Saturday Night Live, January 1984.", 
+      "title": "RENE AND GEORGETTE AND THEIR DOG AFTER THE WAR "
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 10, 
+      "description": " ", 
+      "title": "BERLIN SERIES 1986 - COMING SOON"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 9, 
+      "description": "Artists performing and explains the traditional dance of South India. Original Length: 4 minutes, 1995.", 
+      "title": "KAMALA CESAR: BHARATA NATYAM "
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 8, 
+      "description": "The Valentine Series was a made in celebration of couples, friends, living in Venice California on Valentines Day. Each portrait varies in length.", 
+      "title": "VALENTINE SERIES: CALIFORNIA FRIENDS. 1976"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 7, 
+      "description": "Inverting the form, style and time frame of commercial television advertising, Logue has produced a unique series of dynamic video portraits of avant-garde artists, writers, musicians and performers.", 
+      "title": "NEW YORK ARTIST, 30 SECOND PORTRAITS 1979-1982"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 6, 
+      "description": "30 Second Spots: Paris focuses on prominent artists, writers, philosophers and musicians working in Paris. Using elegant special effects, close-ups, and a highly condensed time frame, Logue captures her subjects in moments of intimacy and contemplation.", 
+      "title": "FRENCH ARTIST, 30 SECOND PORTRAITS 1982-1983"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 5, 
+      "description": "Logue tailors the style and content of each succinct portrait to complement the idiosyncratic nature of the artist\u2019s work.", 
+      "title": "SAN FRANCISCO ARTIST, 30 SECOND PORTRAITS 1984"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 4, 
+      "description": "Logue merges image with spoken and written text in Video Portraits: French Writers, utilizing elegant video techniques to illustrate the words of such prominent authors and theorists as Jacques Derrida, Andre Du Bouchet, and Florence Delay.", 
+      "title": "FRENCH WRITERS, 30 SECOND PORTRAITS 1985"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 3, 
+      "description": "Presented with a straightforward charm, Logue\u2019s abbreviated portraits of fishermen in Gloucester and Boston Massachusetts are more than mere \u201cfish stories.\u201d Seen on their boats in the open sea, the fishermen speak directly to the camera, relating anecdotes and observations that are alternately comic or poignant.", 
+      "title": "NEW ENGLAND FISHERMEN, 30 SECOND STORIES 1984-1985 "
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 2, 
+      "description": "Original Length: 3-5 minutes each, 8mm video. 1988. Five Composers, Five countries Original Length: 305 minutes, 8mm video. 1988. \r\nFive Composers, Five Countries, portrays five contemporary composers from five separate countries. Each composer was commissioned to write a three-minute mini opera to be collectively produced by their own nation. My OTV (Opera TV) was to be seen like MTV. The operas were never made, but their remains small video portraits of each composer as well the documentation of the storyboard creation for each of the five operas.", 
+      "title": "5 COMPOSERS 5 COUNTRIES: England, Italy, France, Spain and USA. 1988"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "vp_project.category", 
+    "fields": {
+      "id_number": 1, 
+      "description": "In the Renaissance, kings rarely traveled to find a bride: instead, an artist was sent to paint her likeness, producing miniature portraits called \"Limnings\" Today, my video limnings are made to be seen as wearable art; to wear ones memories in a video pin.", 
+      "title": "DIGITAL LIMNINGS:  Traditional Dancers: Burma, China, Hawaii, Japan, North India, South India, Spain. 2001 "
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 1, 
+      "description": " ", 
+      "title": "West Africa: Outside Looking In", 
+      "shot_date": "2010-01-01", 
+      "thumbnail_name": "thumbnails/West_Africa1_72_4.jpg", 
+      "video_name": "videos/West_Africa1_72_8.flv"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 1, 
+      "description": " ", 
+      "title": "Women Working Sucromu Liberia 1971", 
+      "shot_date": "2010-01-02", 
+      "thumbnail_name": "thumbnails/womenworking_3.jpg", 
+      "video_name": "videos/womenworking_3.flv"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 1, 
+      "description": " ", 
+      "title": "Weaver and Tailor Sucromu Liberia 1971", 
+      "shot_date": "2010-01-03", 
+      "thumbnail_name": "thumbnails/weaver_3.jpg", 
+      "video_name": "videos/weaver_3.flv"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 3, 
+      "description": " ", 
+      "title": "Rosa Parks 1989 MI", 
+      "shot_date": "2010-01-04", 
+      "thumbnail_name": "thumbnails/Parks_Rosa_2.jpg", 
+      "video_name": "videos/Parks_Rosa_2.flv"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 3, 
+      "description": " ", 
+      "title": "Cesar Chavez 1989 CA", 
+      "shot_date": "2010-01-05", 
+      "thumbnail_name": "thumbnails/cesar_chavez_2.jpg", 
+      "video_name": "videos/cesar_chavez_1.flv"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 3, 
+      "description": " ", 
+      "title": "Rosa Parks & Barack Obama 2009", 
+      "shot_date": "2010-01-06", 
+      "thumbnail_name": "thumbnails/parks_obama_2.jpg", 
+      "video_name": "videos/parks_obama_2.flv"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 6, 
+      "description": " ", 
+      "title": "Self Portrait with Mother. 1979 ", 
+      "shot_date": "2010-01-07", 
+      "thumbnail_name": "thumbnails/Self_Portrait_with_Mother_1_1.jpg", 
+      "video_name": "videos/Self_Portrait_with_Mother_3.flv"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 6, 
+      "description": " ", 
+      "title": "Auto Portrait. 1972-1983 ", 
+      "shot_date": "2010-01-08", 
+      "thumbnail_name": "thumbnails/Self_Portrait_2.jpg", 
+      "video_name": "videos/Self_Portrait_2.flv"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 6, 
+      "description": " ", 
+      "title": "Self Portrait Post 911. 2001", 
+      "shot_date": "2010-01-09", 
+      "thumbnail_name": "thumbnails/self911_2.jpg", 
+      "video_name": "videos/self_911_2.flv"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 8, 
+      "description": " ", 
+      "title": "Ren\u00e9 and Georgette and Their Dog After the War ", 
+      "shot_date": "2010-01-10", 
+      "thumbnail_name": "thumbnails/Magritte_Portrait_2.jpg", 
+      "video_name": "videos/Magritte_Portrait_2.flv"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 10, 
+      "description": " ", 
+      "title": "Kamala Cesar Bharata Natyam", 
+      "shot_date": "2010-01-11", 
+      "thumbnail_name": "thumbnails/Kamala_Cesar_2.jpg", 
+      "video_name": "videos/Kamala_Cesar_2.mov"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 17, 
+      "description": " ", 
+      "title": "Michael Nyman England", 
+      "shot_date": "2010-01-12", 
+      "thumbnail_name": "thumbnails/Nyman_Michael_1.jpg", 
+      "video_name": "videos/Nyman_Michael_1.flv"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 17, 
+      "description": " ", 
+      "title": "Carles Santos Spain", 
+      "shot_date": "2010-01-13", 
+      "thumbnail_name": "thumbnails/Santos_Carles2_1.jpg", 
+      "video_name": "videos/Santos_Carles2_1.flv"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 17, 
+      "description": " ", 
+      "title": "Alvin Curran Italy", 
+      "shot_date": "2010-01-14", 
+      "thumbnail_name": "thumbnails/curran_1.jpg", 
+      "video_name": "videos/Curran_Alvin_1.flv"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 17, 
+      "description": " ", 
+      "title": "Michael Levinas France", 
+      "shot_date": "2010-01-15", 
+      "thumbnail_name": "thumbnails/levinas_1.jpg", 
+      "video_name": "videos/Levinas_Michael_1.flv"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 17, 
+      "description": " ", 
+      "title": "Tod Machover USA", 
+      "shot_date": "2010-01-16", 
+      "thumbnail_name": "thumbnails/Machover_Tod1_1.jpg", 
+      "video_name": "videos/Machover_Tod_1.flv"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 14, 
+      "description": " ", 
+      "title": "Anna Halprin, Dancer 1984", 
+      "shot_date": "2010-01-17", 
+      "thumbnail_name": "thumbnails/halprin_1.jpg", 
+      "video_name": "videos/halprin_1.flv"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 14, 
+      "description": " ", 
+      "title": "Star Sutherland, Video-Artist 1984", 
+      "shot_date": "2010-01-18", 
+      "thumbnail_name": "thumbnails/sutherland_1.jpg", 
+      "video_name": "videos/sutherland_1.flv"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 14, 
+      "description": " ", 
+      "title": "Diamanda Galas, Composer Performance 1984", 
+      "shot_date": "2010-01-19", 
+      "thumbnail_name": "thumbnails/galas_1.jpg", 
+      "video_name": "videos/galas_1.flv"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 14, 
+      "description": " ", 
+      "title": "Tim Hatch Earthquake 1984", 
+      "shot_date": "2010-01-20", 
+      "thumbnail_name": "thumbnails/earthquake_1.jpg", 
+      "video_name": "videos/quake_1.flv"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 14, 
+      "description": " ", 
+      "title": "Donald Buchla, Composer 1984", 
+      "shot_date": "2010-01-21", 
+      "thumbnail_name": "thumbnails/don_buchla_86_1.jpg", 
+      "video_name": "videos/don_buchla_86_1.flv"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Chicago South Side Family: Mother\u201a Father\u201a Daughter and Grandmother 1979", 
+      "shot_date": "2010-01-22", 
+      "thumbnail_name": "thumbnails/Three_Generations_Chicago2_2.jpg", 
+      "video_name": "videos/Three_Generations_Chicago2_2.flv"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Katherine Murphy and Family 1979", 
+      "shot_date": "2010-01-23", 
+      "thumbnail_name": "thumbnails/murphy_1_1.jpg", 
+      "video_name": "videos/murphy_2.flv"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Michael Nyman's Daughters New York 1981", 
+      "shot_date": "2010-01-24", 
+      "thumbnail_name": "thumbnails/COMING_SOON_11.jpg", 
+      "video_name": "videos/COMING_SOON_10.jpg"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Self Portrait with Mother: Joan Logue and Helen Logue 1978", 
+      "shot_date": "2010-01-25", 
+      "thumbnail_name": "thumbnails/Self_Portrait_with_Mother_3.jpg", 
+      "video_name": "videos/Self_Portrait_with_Mother_4.flv"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Mother and Son: Martha Wilson and Son ", 
+      "shot_date": "2010-01-26", 
+      "thumbnail_name": "thumbnails/COMING_SOON_12.jpg", 
+      "video_name": "videos/COMING_SOON_11.jpg"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Mother and Son: Marianna and David ", 
+      "shot_date": "2010-01-27", 
+      "thumbnail_name": "thumbnails/maryanne_1_1.jpg", 
+      "video_name": "videos/maryanne_2.flv"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 4, 
+      "description": " ", 
+      "title": "Father and Daughter: John Rockwell and Daughter Sasha 2001", 
+      "shot_date": "2010-01-28", 
+      "thumbnail_name": "thumbnails/Rockwell_Family_2.jpg", 
+      "video_name": "videos/Rockwell_Family_2.flv"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Venice California 1974-1976", 
+      "shot_date": "2010-01-29", 
+      "thumbnail_name": "thumbnails/venice_ca_2.jpg", 
+      "video_name": "videos/venice_ca_2.flv"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Little Italy New York 1977", 
+      "shot_date": "2010-01-30", 
+      "thumbnail_name": "thumbnails/little_italy_2.jpg", 
+      "video_name": "videos/little_italy_2.flv"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Soho New York 1978", 
+      "shot_date": "2010-01-31", 
+      "thumbnail_name": "thumbnails/soho_2.jpg", 
+      "video_name": "videos/soho_2.flv"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "South Side Chicago 1978", 
+      "shot_date": "2010-02-01", 
+      "thumbnail_name": "thumbnails/ChicagoCityPortrait_2.jpg", 
+      "video_name": "videos/ChicagoCityPortrait_2.flv"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Montbeliard Eastern France 1981", 
+      "shot_date": "2010-02-02", 
+      "thumbnail_name": "thumbnails/montbeliard_2.jpg", 
+      "video_name": "videos/montbeliard_2.flv"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Marais Paris France 1982-1983", 
+      "shot_date": "2010-02-03", 
+      "thumbnail_name": "thumbnails/marais_2.jpg", 
+      "video_name": "videos/marais_2.flv"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Montpellier Southern France 1983", 
+      "shot_date": "2010-02-04", 
+      "thumbnail_name": "thumbnails/montpellier_2.jpg", 
+      "video_name": "videos/montpellier_2.flv"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Saragossa Spain 1983 - Coming Soon", 
+      "shot_date": "2010-02-05", 
+      "thumbnail_name": "thumbnails/COMING_SOON_13.jpg", 
+      "video_name": "videos/COMING_SOON_12.jpg"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Rennes France 1983 - Coming Soon", 
+      "shot_date": "2010-02-06", 
+      "thumbnail_name": "thumbnails/COMING_SOON_14.jpg", 
+      "video_name": "videos/COMING_SOON_13.jpg"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Normandy France 1990 - Coming Soon", 
+      "shot_date": "2010-02-07", 
+      "thumbnail_name": "thumbnails/COMING_SOON_15.jpg", 
+      "video_name": "videos/COMING_SOON_14.jpg"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Digi Girls 2004", 
+      "shot_date": "2010-02-08", 
+      "thumbnail_name": "thumbnails/digi_2.jpg", 
+      "video_name": "videos/digi_2.flv"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 5, 
+      "description": " ", 
+      "title": "Central Park The Gates 2005", 
+      "shot_date": "2010-02-09", 
+      "thumbnail_name": "thumbnails/centralpark_2.jpg", 
+      "video_name": "videos/centralpark_2.flv"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "9 Portraits 9 Women - Coming Soon 1989", 
+      "shot_date": "2010-02-10", 
+      "thumbnail_name": "thumbnails/COMING_SOON_16.jpg", 
+      "video_name": "videos/COMING_SOON_15.jpg"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "New York and Brazil Homeless Installation - Coming Soon 1989", 
+      "shot_date": "2010-02-11", 
+      "thumbnail_name": "thumbnails/COMING_SOON_17.jpg", 
+      "video_name": "videos/COMING_SOON_16.jpg"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "\"For I loved him and he didn't love back\" 1985", 
+      "shot_date": "2010-02-12", 
+      "thumbnail_name": "thumbnails/lovedhim_2.jpg", 
+      "video_name": "videos/lovedhim_2.flv"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "In Memory of Dany Block 1989", 
+      "shot_date": "2010-02-13", 
+      "thumbnail_name": "thumbnails/In_Memory_Dany_Block_2.jpg", 
+      "video_name": "videos/In_Memory_Dany_Block_2.flv"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "Portrait of a Young Woman: 3D Frame 1991", 
+      "shot_date": "2010-02-14", 
+      "thumbnail_name": "thumbnails/Portrait_Young_Girl_2.jpg", 
+      "video_name": "videos/Portrait_Young_Girl_2.flv"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "Don Buchla 1985", 
+      "shot_date": "2010-02-15", 
+      "thumbnail_name": "thumbnails/buchla_2.jpg", 
+      "video_name": "videos/buchla_2.flv"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "John Cage 1979", 
+      "shot_date": "2010-02-16", 
+      "thumbnail_name": "thumbnails/cage2_2_1.jpg", 
+      "video_name": "videos/Cage_John5_2.flv"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 7, 
+      "description": " ", 
+      "title": "Jacques Derrida 1985", 
+      "shot_date": "2010-02-17", 
+      "thumbnail_name": "thumbnails/derrida2_2.jpg", 
+      "video_name": "videos/derrida2_2.flv"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Jacques Derrida", 
+      "shot_date": "2010-02-18", 
+      "thumbnail_name": "thumbnails/derrida_1.jpg", 
+      "video_name": "videos/Jacques_Derrida_1.flv"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Florence DeLay", 
+      "shot_date": "2010-02-19", 
+      "thumbnail_name": "thumbnails/delay_1.jpg", 
+      "video_name": "videos/Florence_DeLay_1.flv"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Pascal Quignard", 
+      "shot_date": "2010-02-20", 
+      "thumbnail_name": "thumbnails/pascal_quignard_1.jpg", 
+      "video_name": "videos/Pascal_Quignard01_1.flv"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Andre Du Bouchet ", 
+      "shot_date": "2010-02-21", 
+      "thumbnail_name": "thumbnails/dubouchet_1.jpg", 
+      "video_name": "videos/Andre_DuBouchet_1.flv"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Danielle Sallenave", 
+      "shot_date": "2010-02-22", 
+      "thumbnail_name": "thumbnails/sallenave_1.jpg", 
+      "video_name": "videos/Daniele_Sallenave_1.flv"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Michel DeGuy", 
+      "shot_date": "2010-02-23", 
+      "thumbnail_name": "thumbnails/deguy_1.jpg", 
+      "video_name": "videos/Michel_DeGuy_1.flv"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Claude Ollier", 
+      "shot_date": "2010-02-24", 
+      "thumbnail_name": "thumbnails/ollier_1.jpg", 
+      "video_name": "videos/Claude_Ollier_1.flv"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Michel Rio", 
+      "shot_date": "2010-02-25", 
+      "thumbnail_name": "thumbnails/rio_1.jpg", 
+      "video_name": "videos/Michel_Rio_1.flv"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Pierrette Fleutiaux", 
+      "shot_date": "2010-02-26", 
+      "thumbnail_name": "thumbnails/fleutiaux_1.jpg", 
+      "video_name": "videos/PFleutiaux01_1.flv"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Claude Simon", 
+      "shot_date": "2010-02-27", 
+      "thumbnail_name": "thumbnails/simon_1.jpg", 
+      "video_name": "videos/Claude_Simon_1.flv"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: Burma 2001", 
+      "shot_date": "2010-02-28", 
+      "thumbnail_name": "thumbnails/burma_1.jpg", 
+      "video_name": "videos/burma_1.flv"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: China 2001", 
+      "shot_date": "2010-03-01", 
+      "thumbnail_name": "thumbnails/china_1.jpg", 
+      "video_name": "videos/China_1.flv"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: Japan 2001", 
+      "shot_date": "2010-03-02", 
+      "thumbnail_name": "thumbnails/japan_1.jpg", 
+      "video_name": "videos/japan_1.flv"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: North India 2001", 
+      "shot_date": "2010-03-03", 
+      "thumbnail_name": "thumbnails/india_1.jpg", 
+      "video_name": "videos/india_1.flv"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: Korea 2001", 
+      "shot_date": "2010-03-04", 
+      "thumbnail_name": "thumbnails/korea_1.jpg", 
+      "video_name": "videos/korea_1.flv"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: East India 2001", 
+      "shot_date": "2010-03-05", 
+      "thumbnail_name": "thumbnails/east_india_1.jpg", 
+      "video_name": "videos/east_india_1.flv"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: Hawaii 2001", 
+      "shot_date": "2010-03-06", 
+      "thumbnail_name": "thumbnails/hawaii_1.jpg", 
+      "video_name": "videos/hawaii_1.flv"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 18, 
+      "description": " ", 
+      "title": "Traditional Dancers: Spain 2001", 
+      "shot_date": "2010-03-07", 
+      "thumbnail_name": "thumbnails/Spain_1.jpg", 
+      "video_name": "videos/Spain_1.flv"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Dominic Montagnino, right place", 
+      "shot_date": "2010-03-08", 
+      "thumbnail_name": "thumbnails/montagnino_1.jpg", 
+      "video_name": "videos/Dominic_Montagnino_1.flv"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Thomas Randazza, Sea sickness", 
+      "shot_date": "2010-03-09", 
+      "thumbnail_name": "thumbnails/randazza1_1.jpg", 
+      "video_name": "videos/Randazza_Thomas04__1.flv"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Romeo Solviletti, Different kind of fish like people", 
+      "shot_date": "2010-03-10", 
+      "thumbnail_name": "thumbnails/Romeo_Solviletti_1.jpg", 
+      "video_name": "videos/Romeo_Solviletti_1.flv"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "John Parisi, 50 years", 
+      "shot_date": "2010-03-11", 
+      "thumbnail_name": "thumbnails/parisi_1.jpg", 
+      "video_name": "videos/John_Parisi_1.flv"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Kenneth Cotto, An old fish story ", 
+      "shot_date": "2010-03-12", 
+      "thumbnail_name": "thumbnails/Kenneth_Cotto_1.jpg", 
+      "video_name": "videos/Kenneth_Cotto_1.flv"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Thomas Parisi", 
+      "shot_date": "2010-03-13", 
+      "thumbnail_name": "thumbnails/parisi_2.jpg", 
+      "video_name": "videos/Thomas_Parisi_1.flv"
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Thomas Silveira, Lobster fishing", 
+      "shot_date": "2010-03-14", 
+      "thumbnail_name": "thumbnails/silveria_1.jpg", 
+      "video_name": "videos/thomas_silveira_fisherman_j_logue_85_1.flv"
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Thomas Randazza, Vacation on a boat", 
+      "shot_date": "2010-03-15", 
+      "thumbnail_name": "thumbnails/Thomas_Randazza_02_1.jpg", 
+      "video_name": "videos/Thomas_Randazza_02_1.flv"
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Palazola & Marino, Fixing net", 
+      "shot_date": "2010-03-16", 
+      "thumbnail_name": "thumbnails/Palazola_Marino_1.jpg", 
+      "video_name": "videos/Palazola_Marino_1.flv"
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Thomas Randazza, No life for a kid", 
+      "shot_date": "2010-03-17", 
+      "thumbnail_name": "thumbnails/Thomas_Randazza_03_1.jpg", 
+      "video_name": "videos/Thomas_Randazza_03_1.flv"
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "John Quince, I was scared", 
+      "shot_date": "2010-03-18", 
+      "thumbnail_name": "thumbnails/quince_1.jpg", 
+      "video_name": "videos/John_Quince_1.flv"
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Joseph Curcuru, Same bait", 
+      "shot_date": "2010-03-19", 
+      "thumbnail_name": "thumbnails/curcuru_1.jpg", 
+      "video_name": "videos/Joseph_Curcuru_1.flv"
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Anthony Palazola, Telling us", 
+      "shot_date": "2010-03-20", 
+      "thumbnail_name": "thumbnails/palazola1_1.jpg", 
+      "video_name": "videos/Anthony_Palazola_1.flv"
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 16, 
+      "description": " ", 
+      "title": "Joseph Piscitello, Sent the kids to college", 
+      "shot_date": "2010-03-21", 
+      "thumbnail_name": "thumbnails/piscitello_1.jpg", 
+      "video_name": "videos/Joseph_Piscitello_1.flv"
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Pierre Boulez, Composer", 
+      "shot_date": "2010-03-22", 
+      "thumbnail_name": "thumbnails/boulez_1.jpg", 
+      "video_name": "videos/boulez_1.flv"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "David Hockney, Painter", 
+      "shot_date": "2010-03-23", 
+      "thumbnail_name": "thumbnails/Hockney_David_2.jpg", 
+      "video_name": "videos/Hockney_David_2.flv"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Philippe Sollers, Writer", 
+      "shot_date": "2010-03-24", 
+      "thumbnail_name": "thumbnails/sollers_1.jpg", 
+      "video_name": "videos/Sollers_Philippe_01_1.flv"
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 15, 
+      "description": " ", 
+      "title": "Maurice Roche, Poet, Writer", 
+      "shot_date": "2010-03-25", 
+      "thumbnail_name": "thumbnails/roche_1.jpg", 
+      "video_name": "videos/Roche_Maurice_1.flv"
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Orlan Performance, Artist", 
+      "shot_date": "2010-03-26", 
+      "thumbnail_name": "thumbnails/Orlan_1.jpg", 
+      "video_name": "videos/Orlan__1.flv"
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Andreas Senser, Painter", 
+      "shot_date": "2010-03-27", 
+      "thumbnail_name": "thumbnails/senser_1.jpg", 
+      "video_name": "videos/Senser_Andreas_1.flv"
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Jean-Claude Eloy, Composer", 
+      "shot_date": "2010-03-28", 
+      "thumbnail_name": "thumbnails/eloy_1.jpg", 
+      "video_name": "videos/eloy_1.flv"
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Dominique Desanti, Writer", 
+      "shot_date": "2010-03-29", 
+      "thumbnail_name": "thumbnails/Desanti2_1.jpg", 
+      "video_name": "videos/Desanti2_1.flv"
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Robert Doisneau, Photographer", 
+      "shot_date": "2010-03-30", 
+      "thumbnail_name": "thumbnails/doisneau_1.jpg", 
+      "video_name": "videos/doisneau_1.flv"
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Philippe Sollers, Writer", 
+      "shot_date": "2010-03-31", 
+      "thumbnail_name": "thumbnails/sollers_2.jpg", 
+      "video_name": "videos/Sollers_Philippe_02_1.flv"
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Takis, Painter", 
+      "shot_date": "2010-04-01", 
+      "thumbnail_name": "thumbnails/takis_1.jpg", 
+      "video_name": "videos/Takis_Artist_Paris_joan_logue_83.mov_1.flv"
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Valere Novarina, Writer Performance", 
+      "shot_date": "2010-04-02", 
+      "thumbnail_name": "thumbnails/novarina_1.jpg", 
+      "video_name": "videos/Novarina_Valere_1.flv"
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Jochen Gerz Performance, Artist", 
+      "shot_date": "2010-04-03", 
+      "thumbnail_name": "thumbnails/gerz_1.jpg", 
+      "video_name": "videos/Gerz_Jochen_1.flv"
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Jean-Toussaint Desanti, Writer", 
+      "shot_date": "2010-04-04", 
+      "thumbnail_name": "thumbnails/Desanti1_1.jpg", 
+      "video_name": "videos/Desanti1_1.flv"
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Julia Kristeva and Son David", 
+      "shot_date": "2010-04-05", 
+      "thumbnail_name": "thumbnails/kristeva_1.jpg", 
+      "video_name": "videos/Kristeva_Julia_David_1.flv"
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Tod Machover, Composer", 
+      "shot_date": "2010-04-06", 
+      "thumbnail_name": "thumbnails/machover_1.jpg", 
+      "video_name": "videos/Machover_Tod1_1.flv"
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Jacques Monory, Painter", 
+      "shot_date": "2010-04-07", 
+      "thumbnail_name": "thumbnails/monory_1.jpg", 
+      "video_name": "videos/Monory_Jacques_1.flv"
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Ushio Amagatsu, Performance Artist", 
+      "shot_date": "2010-04-08", 
+      "thumbnail_name": "thumbnails/amagatsu_1.jpg", 
+      "video_name": "videos/Amagatsu_Ushio_1.flv"
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 13, 
+      "description": " ", 
+      "title": "Stewart Sherman", 
+      "shot_date": "2010-04-09", 
+      "thumbnail_name": "thumbnails/stewart_sherman_1.jpg", 
+      "video_name": "videos/stewart_sherman_1.flv"
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Peter & Liz Gould 1974", 
+      "shot_date": "2010-04-10", 
+      "thumbnail_name": "thumbnails/gould_2.jpg", 
+      "video_name": "videos/gould_2.flv"
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Claude & Bessy Philmena 1974", 
+      "shot_date": "2010-04-11", 
+      "thumbnail_name": "thumbnails/philmena_2.jpg", 
+      "video_name": "videos/philmena_2.flv"
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Conie Lou Ellen & Peter Barlett 1974", 
+      "shot_date": "2010-04-12", 
+      "thumbnail_name": "thumbnails/barlett_2.jpg", 
+      "video_name": "videos/barlett_2.flv"
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "David James & JoAnne Edmonds 1974", 
+      "shot_date": "2010-04-13", 
+      "thumbnail_name": "thumbnails/edmonds_2.jpg", 
+      "video_name": "videos/edmonds_2.flv"
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "David & Peggy Ross 1974", 
+      "shot_date": "2010-04-14", 
+      "thumbnail_name": "thumbnails/ross_2.jpg", 
+      "video_name": "videos/ross_2.flv"
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Ed Moses & Nancy Drew 1974", 
+      "shot_date": "2010-04-15", 
+      "thumbnail_name": "thumbnails/drew_2.jpg", 
+      "video_name": "videos/drew_2.flv"
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Elizabeth Friedman & Patrick Patterson 1974", 
+      "shot_date": "2010-04-16", 
+      "thumbnail_name": "thumbnails/patterson_2.jpg", 
+      "video_name": "videos/patterson_2.flv"
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Jack Destiny 1974", 
+      "shot_date": "2010-04-17", 
+      "thumbnail_name": "thumbnails/destiny_2.jpg", 
+      "video_name": "videos/destiny_2.flv"
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Joe & Chris Crash 1974", 
+      "shot_date": "2010-04-18", 
+      "thumbnail_name": "thumbnails/crash_2.jpg", 
+      "video_name": "videos/crash_2.flv"
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "John Baker & Jan Shippard 1974", 
+      "shot_date": "2010-04-19", 
+      "thumbnail_name": "thumbnails/shippard_2.jpg", 
+      "video_name": "videos/shippard_2.flv"
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "John Hunt & Judith Binder 1974", 
+      "shot_date": "2010-04-20", 
+      "thumbnail_name": "thumbnails/binder_2.jpg", 
+      "video_name": "videos/binder_2.flv"
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "John Sturgeon & Aysha Quinn 1974", 
+      "shot_date": "2010-04-21", 
+      "thumbnail_name": "thumbnails/quinn_2.jpg", 
+      "video_name": "videos/quinn_2.flv"
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Lita Albuquereuq & Steve Kahn 1974", 
+      "shot_date": "2010-04-22", 
+      "thumbnail_name": "thumbnails/kahn_2.jpg", 
+      "video_name": "videos/kahn_2.flv"
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Mark & Georgie Ross 1974", 
+      "shot_date": "2010-04-23", 
+      "thumbnail_name": "thumbnails/ross2_2.jpg", 
+      "video_name": "videos/ross2_2.flv"
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 11, 
+      "description": " ", 
+      "title": "Peter Kirby & Sarah Tamore 1974", 
+      "shot_date": "2010-04-24", 
+      "thumbnail_name": "thumbnails/tamore_2.jpg", 
+      "video_name": "videos/tamore_2.flv"
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "John Cage. Composer 1979-1982", 
+      "shot_date": "2010-04-25", 
+      "thumbnail_name": "thumbnails/cage_3.jpg", 
+      "video_name": "videos/Cage_John_3.flv"
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Meredith Monk. Composer 1979-1982", 
+      "shot_date": "2010-04-26", 
+      "thumbnail_name": "thumbnails/monk_2.jpg", 
+      "video_name": "videos/Monk_Meredith_2.flv"
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Arnie Zane and Bill T. Jones Dance 1979-1982", 
+      "shot_date": "2010-04-27", 
+      "thumbnail_name": "thumbnails/zane_2.jpg", 
+      "video_name": "videos/Arnie_Zane_Bill_T_Jones_2.flv"
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Maryanne Amacher. Composer 1979-1982", 
+      "shot_date": "2010-04-28", 
+      "thumbnail_name": "thumbnails/amacher_2.jpg", 
+      "video_name": "videos/Amacher_Maryanne.mov_2.flv"
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Robert Ashley. Composer Writer 1979-1982", 
+      "shot_date": "2010-04-29", 
+      "thumbnail_name": "thumbnails/ashley_2.jpg", 
+      "video_name": "videos/Ashley_Robert_2.flv"
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Charlemagne Palestine. Composer 1979-1982", 
+      "shot_date": "2010-04-30", 
+      "thumbnail_name": "thumbnails/palestine_2.jpg", 
+      "video_name": "videos/Palestine_Charlemagne_3.flv"
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Simone Forti. Choreographer 1979-1982", 
+      "shot_date": "2010-05-01", 
+      "thumbnail_name": "thumbnails/forti_2.jpg", 
+      "video_name": "videos/forte_simone_choregraoger_81_2.flv"
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Carles Santos. Composer Performance 1979-1982", 
+      "shot_date": "2010-05-02", 
+      "thumbnail_name": "thumbnails/santos_1.jpg", 
+      "video_name": "videos/Santos_Carles_2.flv"
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Spalding Gray. Writer Performer 1979-1982", 
+      "shot_date": "2010-05-03", 
+      "thumbnail_name": "thumbnails/gray_2.jpg", 
+      "video_name": "videos/Gray_Spalding2_2.flv"
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Richard Teitelbaum. Composer 1979-1982", 
+      "shot_date": "2010-05-04", 
+      "thumbnail_name": "thumbnails/Richard_Teitelbaum_2.jpg", 
+      "video_name": "videos/Richard_Teitelbaum_2.flv"
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Steve Reich. Composer 1979-1982", 
+      "shot_date": "2010-05-05", 
+      "thumbnail_name": "thumbnails/Steve_Reich_4.jpg", 
+      "video_name": "videos/Steve_Reich_2.flv"
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "George Lewis. Composer 1979-1982", 
+      "shot_date": "2010-05-06", 
+      "thumbnail_name": "thumbnails/lewis_1.jpg", 
+      "video_name": "videos/Lewis_George_2.flv"
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Tony Ramos. Performance 1979-1982", 
+      "shot_date": "2010-05-07", 
+      "thumbnail_name": "thumbnails/ramos_2.jpg", 
+      "video_name": "videos/Ramos_Tony_2.flv"
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "David Behrman. Composer 1979-1982", 
+      "shot_date": "2010-05-08", 
+      "thumbnail_name": "thumbnails/Behrman_David_2.jpg", 
+      "video_name": "videos/Behrman_David_2.flv"
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Charlemagne Palestine. Performance 1979-1982", 
+      "shot_date": "2010-05-09", 
+      "thumbnail_name": "thumbnails/palestine1_2.jpg", 
+      "video_name": "videos/Charlemag_Palestine_2.flv"
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Douglas Ewart. Composer 1979-1982", 
+      "shot_date": "2010-05-10", 
+      "thumbnail_name": "thumbnails/ewart_2.jpg", 
+      "video_name": "videos/Ewart_Douglas01_2.flv"
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Max Neuhaus. Composer 1979-1982", 
+      "shot_date": "2010-05-11", 
+      "thumbnail_name": "thumbnails/Max_Neuhaus_2.jpg", 
+      "video_name": "videos/Max_Neuhaus_2.flv"
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Joan Jonas #1. Performance 1979-1982", 
+      "shot_date": "2010-05-12", 
+      "thumbnail_name": "thumbnails/jonas_1.jpg", 
+      "video_name": "videos/jonas_joan1_2.flv"
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Joan Jonas #2. Performance 1979-1982", 
+      "shot_date": "2010-05-13", 
+      "thumbnail_name": "thumbnails/jonas_2.jpg", 
+      "video_name": "videos/Jonas_Joan2_2.flv"
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Steve Reich #1. Composer 1979-1982", 
+      "shot_date": "2010-05-14", 
+      "thumbnail_name": "thumbnails/Steve_Reich2_1.jpg", 
+      "video_name": "videos/steve_reich1_2.flv"
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Steve Reich #2. Composer 1979-1982", 
+      "shot_date": "2010-05-15", 
+      "thumbnail_name": "thumbnails/Steve_Reich_5.jpg", 
+      "video_name": "videos/Steve_Reich2_2.flv"
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Liz Phillips. Composer Sound Installation 1979-1982", 
+      "shot_date": "2010-05-16", 
+      "thumbnail_name": "thumbnails/Liz_Phillips_2.jpg", 
+      "video_name": "videos/Liz_Phillips_2.flv"
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Philip Glass. Composer 1979-1982", 
+      "shot_date": "2010-05-17", 
+      "thumbnail_name": "thumbnails/glass_2.jpg", 
+      "video_name": "videos/Glass_Philip_2.flv"
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 12, 
+      "description": " ", 
+      "title": "Michael Nyman. Composer 1979", 
+      "shot_date": "2010-05-18", 
+      "thumbnail_name": "thumbnails/nyman_2.jpg", 
+      "video_name": "videos/nyman_2.flv"
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "John Baldessari #1 1976; Los Angeles\u201a CA", 
+      "shot_date": "2010-05-19", 
+      "thumbnail_name": "thumbnails/Baldessari_John_2.jpg", 
+      "video_name": "videos/Baldessari_John_2.flv"
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "John Baldessari #2 1976; Los Angeles\u201a CA", 
+      "shot_date": "2010-05-20", 
+      "thumbnail_name": "thumbnails/Baldessari_John2_2.jpg", 
+      "video_name": "videos/baldessari_john_2_2.flv"
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Manuel Alvarez Bravo 1981\u201a CA", 
+      "shot_date": "2010-05-21", 
+      "thumbnail_name": "thumbnails/Bravo_Manuel_Alvarez_2.jpg", 
+      "video_name": "videos/manuel_alvarez_bravo_2.flv"
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Vija Celmins #1 1976\u201a CA", 
+      "shot_date": "2010-05-22", 
+      "thumbnail_name": "thumbnails/Celmins_Vija_2.jpg", 
+      "video_name": "videos/celmins_vija_2.flv"
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Vija Celmins #2 1976\u201a CA", 
+      "shot_date": "2010-05-23", 
+      "thumbnail_name": "thumbnails/Celmins_Vija2_2.jpg", 
+      "video_name": "videos/Celmins_Vija2_2.flv"
+    }
+  }, 
+  {
+    "pk": 145, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Judy Chicago #1 1976\u201a CA", 
+      "shot_date": "2010-05-24", 
+      "thumbnail_name": "thumbnails/Chicago_Judy_2.jpg", 
+      "video_name": "videos/Chicago_Judy_2.flv"
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Judy Chicago #2 1976\u201a CA", 
+      "shot_date": "2010-05-25", 
+      "thumbnail_name": "thumbnails/Chicago_Judy2_2.jpg", 
+      "video_name": "videos/chicago_judy_2_2.flv"
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "John Cage #1 1978\u201a NY", 
+      "shot_date": "2010-05-26", 
+      "thumbnail_name": "thumbnails/cage2_3.jpg", 
+      "video_name": "videos/cage2_2.mov"
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "John Cage #2 1979\u201a NY", 
+      "shot_date": "2010-05-27", 
+      "thumbnail_name": "thumbnails/Cage_John2_2.jpg", 
+      "video_name": "videos/Cage_John6_2.flv"
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Willem de Kooning #1 1978\u201a NY", 
+      "shot_date": "2010-05-28", 
+      "thumbnail_name": "thumbnails/DeKooning_Willem_2.jpg", 
+      "video_name": "videos/DeKooning_Willem_2.flv"
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Willem de Kooning #2 1978\u201a NY", 
+      "shot_date": "2010-05-29", 
+      "thumbnail_name": "thumbnails/dekooning2_2.jpg", 
+      "video_name": "videos/dekooning2_2.flv"
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Richard Diebenkorn #1 1976\u201a CA", 
+      "shot_date": "2010-05-30", 
+      "thumbnail_name": "thumbnails/Diebenkorn_Richard_2.jpg", 
+      "video_name": "videos/diebenkorn_richard_2.flv"
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Richard Diebenkorn #2 1976\u201a CA", 
+      "shot_date": "2010-05-31", 
+      "thumbnail_name": "thumbnails/Diebenkorn_Richard2_2.jpg", 
+      "video_name": "videos/diebenkorn_richard2_2.flv"
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Michael Heizer 1980\u201a NY", 
+      "shot_date": "2010-06-01", 
+      "thumbnail_name": "thumbnails/heizer_2.jpg", 
+      "video_name": "videos/heizer_2.flv"
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Lillian Hellman 1981\u201a NYC", 
+      "shot_date": "2010-06-02", 
+      "thumbnail_name": "thumbnails/hellman_2.jpg", 
+      "video_name": "videos/hellman_2.flv"
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "David Hockney 1983\u201a Paris", 
+      "shot_date": "2010-06-03", 
+      "thumbnail_name": "thumbnails/hockney_1.jpg", 
+      "video_name": "videos/Hockney_David_3.flv"
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Takao Iijim Ay-o 1979\u201a NY", 
+      "shot_date": "2010-06-04", 
+      "thumbnail_name": "thumbnails/Ayo_Takao_2.jpg", 
+      "video_name": "videos/ayo_takao_2.flv"
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Jasper Johns #1 1979\u201a NY - Coming Soon", 
+      "shot_date": "2010-06-05", 
+      "thumbnail_name": "thumbnails/COMING_SOON_18.jpg", 
+      "video_name": "videos/COMING_SOON_17.jpg"
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Jasper Johns #2 1979\u201a NY", 
+      "shot_date": "2010-06-06", 
+      "thumbnail_name": "thumbnails/Johns_Jasper2_2.jpg", 
+      "video_name": "videos/Johns_Jasper2_2.flv"
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Shigeko Kabota 1976\u201a NYC", 
+      "shot_date": "2010-06-07", 
+      "thumbnail_name": "thumbnails/Kabota_Shigeko_2.jpg", 
+      "video_name": "videos/Kabota_Shigeko_2.flv"
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ellsworth Kelly #1 1978\u201a NY", 
+      "shot_date": "2010-06-08", 
+      "thumbnail_name": "thumbnails/Kelly_Ellsworth_2.jpg", 
+      "video_name": "videos/Kelly_Ellsworth_2.flv"
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ellsworth Kelly #2 1978\u201a NY", 
+      "shot_date": "2010-06-09", 
+      "thumbnail_name": "thumbnails/ellsworth2_2.jpg", 
+      "video_name": "videos/ellsworth2_2.flv"
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ed Kienholz 1985\u201a Berlin - Coming Soon", 
+      "shot_date": "2010-06-10", 
+      "thumbnail_name": "thumbnails/COMING_SOON_19.jpg", 
+      "video_name": "videos/COMING_SOON_18.jpg"
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Roy Lichtenstein #1 1978\u201a NY", 
+      "shot_date": "2010-06-11", 
+      "thumbnail_name": "thumbnails/Lichtenstein_Roy_2.jpg", 
+      "video_name": "videos/Lichtenstein_Roy_2.flv"
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Joan Mitchell 1980\u201a NY", 
+      "shot_date": "2010-06-12", 
+      "thumbnail_name": "thumbnails/mitchell_2.jpg", 
+      "video_name": "videos/mitchell_2.flv"
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ed Moses #1 1976\u201a CA", 
+      "shot_date": "2010-06-13", 
+      "thumbnail_name": "thumbnails/Moses_Ed1_2.jpg", 
+      "video_name": "videos/Moses_Ed1_2.flv"
+    }
+  }, 
+  {
+    "pk": 166, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ed Moses #2 1976\u201a CA", 
+      "shot_date": "2010-06-14", 
+      "thumbnail_name": "thumbnails/Moses_Ed2_2.jpg", 
+      "video_name": "videos/moses_ed_2_2.flv"
+    }
+  }, 
+  {
+    "pk": 167, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Katherine Murphy #1 1980\u201a MA", 
+      "shot_date": "2010-06-15", 
+      "thumbnail_name": "thumbnails/Murphy_Katherine_2.jpg", 
+      "video_name": "videos/murphy_katherine_2.flv"
+    }
+  }, 
+  {
+    "pk": 168, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Pat O'Neill #1 1976\u201a CA", 
+      "shot_date": "2010-06-16", 
+      "thumbnail_name": "thumbnails/ONeill_Pat_2.jpg", 
+      "video_name": "videos/oneill_pat_2.flv"
+    }
+  }, 
+  {
+    "pk": 169, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Pat O'Neill #2 1976\u201a CA", 
+      "shot_date": "2010-06-17", 
+      "thumbnail_name": "thumbnails/ONeill_Pat2_1_1.jpg", 
+      "video_name": "videos/oneill_pat2_2.flv"
+    }
+  }, 
+  {
+    "pk": 170, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Nam June Paik 1978\u201a NY", 
+      "shot_date": "2010-06-18", 
+      "thumbnail_name": "thumbnails/paik_2.jpg", 
+      "video_name": "videos/paik_2.flv"
+    }
+  }, 
+  {
+    "pk": 171, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Charlemagne Palestine 1977\u201a NY", 
+      "shot_date": "2010-06-19", 
+      "thumbnail_name": "thumbnails/charlemagne_2.jpg", 
+      "video_name": "videos/charlemagne_1.flv"
+    }
+  }, 
+  {
+    "pk": 172, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Ed Ruscha 1976\u201a CA", 
+      "shot_date": "2010-06-20", 
+      "thumbnail_name": "thumbnails/Ruscha_Ed_2.jpg", 
+      "video_name": "videos/ruscha_ed_2.flv"
+    }
+  }, 
+  {
+    "pk": 173, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Robert Rauschenberg #1 1978\u201a NY", 
+      "shot_date": "2010-06-21", 
+      "thumbnail_name": "thumbnails/Rauschenberg_Robert_2.jpg", 
+      "video_name": "videos/Rauschenberg_Robert_2.flv"
+    }
+  }, 
+  {
+    "pk": 174, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Self Portrait 1977\u201a NY", 
+      "shot_date": "2010-06-22", 
+      "thumbnail_name": "thumbnails/jl_self_2.jpg", 
+      "video_name": "videos/jl_self_2.flv"
+    }
+  }, 
+  {
+    "pk": 175, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Studs Turkel 1979\u201a IL - Coming Soon", 
+      "shot_date": "2010-06-23", 
+      "thumbnail_name": "thumbnails/COMING_SOON_20.jpg", 
+      "video_name": "videos/COMING_SOON_19.jpg"
+    }
+  }, 
+  {
+    "pk": 176, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Big Joe Turner 1981\u201a NYC", 
+      "shot_date": "2010-06-24", 
+      "thumbnail_name": "thumbnails/turner_2.jpg", 
+      "video_name": "videos/turner_2.flv"
+    }
+  }, 
+  {
+    "pk": 177, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Duane Valentine #1 1976\u201a CA", 
+      "shot_date": "2010-06-24", 
+      "thumbnail_name": "thumbnails/Valentine_DeWain_2.jpg", 
+      "video_name": "videos/Valentine_DeWain_2.flv"
+    }
+  }, 
+  {
+    "pk": 178, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Duane Valentine #2 1976\u201a CA", 
+      "shot_date": "2010-06-25", 
+      "thumbnail_name": "thumbnails/Valentine_DeWain2_2.jpg", 
+      "video_name": "videos/valentine_dewaine2_2.flv"
+    }
+  }, 
+  {
+    "pk": 179, 
+    "model": "vp_project.video", 
+    "fields": {
+      "category": 2, 
+      "description": " ", 
+      "title": "Emmett Williams 1978\u201a NY", 
+      "shot_date": "2010-06-26", 
+      "thumbnail_name": "thumbnails/Williams_Emmett_2.jpg", 
+      "video_name": "videos/williams_emmett_2.flv"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_logentry", 
+      "name": "Can add log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_logentry", 
+      "name": "Can change log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_logentry", 
+      "name": "Can delete log entry", 
+      "content_type": 1
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_group", 
+      "name": "Can add group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_group", 
+      "name": "Can change group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_group", 
+      "name": "Can delete group", 
+      "content_type": 3
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_message", 
+      "name": "Can add message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_message", 
+      "name": "Can change message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_message", 
+      "name": "Can delete message", 
+      "content_type": 5
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_permission", 
+      "name": "Can add permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_permission", 
+      "name": "Can change permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_permission", 
+      "name": "Can delete permission", 
+      "content_type": 2
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_user", 
+      "name": "Can add user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_user", 
+      "name": "Can change user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_user", 
+      "name": "Can delete user", 
+      "content_type": 4
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_contenttype", 
+      "name": "Can add content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_contenttype", 
+      "name": "Can change content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_contenttype", 
+      "name": "Can delete content type", 
+      "content_type": 6
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_session", 
+      "name": "Can add session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_session", 
+      "name": "Can change session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_session", 
+      "name": "Can delete session", 
+      "content_type": 7
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_site", 
+      "name": "Can add site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_site", 
+      "name": "Can change site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_site", 
+      "name": "Can delete site", 
+      "content_type": 8
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_category", 
+      "name": "Can add category", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_category", 
+      "name": "Can change category", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_category", 
+      "name": "Can delete category", 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_video", 
+      "name": "Can add video", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_video", 
+      "name": "Can change video", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_video", 
+      "name": "Can delete video", 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 363, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:59:39", 
+      "object_repr": "John Baldessari #1 1976; Los Angeles\u201a CA", 
+      "object_id": "140", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 362, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:59:29", 
+      "object_repr": "John Baldessari #2 1976; Los Angeles\u201a CA", 
+      "object_id": "141", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 361, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:59:14", 
+      "object_repr": "Vija Celmins #2 1976\u201a CA", 
+      "object_id": "144", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 360, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:59:01", 
+      "object_repr": "Judy Chicago #1 1976\u201a CA", 
+      "object_id": "145", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 359, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:58:49", 
+      "object_repr": "Takao Iijim Ay-o 1979\u201a NY", 
+      "object_id": "156", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 358, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:58:35", 
+      "object_repr": "Ellsworth Kelly #2 1978\u201a NY", 
+      "object_id": "161", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 357, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:58:07", 
+      "object_repr": "Judy Chicago #2 1976\u201a CA", 
+      "object_id": "146", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 356, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:57:47", 
+      "object_repr": "Roy Lichtenstein #1 1978\u201a NY", 
+      "object_id": "163", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 355, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-20 12:57:32", 
+      "object_repr": "Pat O'Neill #1 1976\u201a CA", 
+      "object_id": "168", 
+      "change_message": "Changed title.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 354, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:31:55", 
+      "object_repr": "Emmett Williams 1978\u201a NY", 
+      "object_id": "179", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 353, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:31:12", 
+      "object_repr": "Duane Valentine #2 1976\u201a CA", 
+      "object_id": "178", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 352, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:30:27", 
+      "object_repr": "Duane Valentine #1 1976\u201a CA", 
+      "object_id": "177", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 351, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:29:48", 
+      "object_repr": "Big Joe Turner 1981\u201a NYC", 
+      "object_id": "176", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 350, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:29:14", 
+      "object_repr": "Studs Turkel 1979\u201a IL - Coming Soon", 
+      "object_id": "175", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 349, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:28:25", 
+      "object_repr": "Self Portrait 1977\u201a NY", 
+      "object_id": "174", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 348, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:27:46", 
+      "object_repr": "Robert Rauschenberg #1 1978\u201a NY", 
+      "object_id": "173", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 347, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:27:15", 
+      "object_repr": "Ed Ruscha 1976\u201a CA", 
+      "object_id": "172", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 346, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:26:38", 
+      "object_repr": "Charlemagne Palestine 1977\u201a NY", 
+      "object_id": "171", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 345, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:25:52", 
+      "object_repr": "Nam June Paik 1978\u201a NY", 
+      "object_id": "170", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 344, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:25:03", 
+      "object_repr": "Pat O'Neill #2 1976\u201a CA", 
+      "object_id": "169", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 343, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:24:21", 
+      "object_repr": "Pat O'Neill #1 1976\u201a CA1976\u201a CA", 
+      "object_id": "168", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 342, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:23:36", 
+      "object_repr": "Katherine Murphy #1 1980\u201a MA", 
+      "object_id": "167", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 341, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:23:02", 
+      "object_repr": "Ed Moses #2 1976\u201a CA", 
+      "object_id": "166", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 340, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:22:30", 
+      "object_repr": "Ed Moses #1 1976\u201a CA", 
+      "object_id": "165", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 339, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:21:37", 
+      "object_repr": "Joan Mitchell 1980\u201a NY", 
+      "object_id": "164", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 338, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:21:07", 
+      "object_repr": "Roy Lichtenstein #1 1978\u201a NY1978\u201a NY", 
+      "object_id": "163", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 337, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:20:32", 
+      "object_repr": "Ed Kienholz 1985\u201a Berlin - Coming Soon", 
+      "object_id": "162", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 336, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:19:55", 
+      "object_repr": "Ellsworth Kelly #2 1978\u201a NY1978\u201a NY", 
+      "object_id": "161", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 335, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:19:24", 
+      "object_repr": "Ellsworth Kelly #1 1978\u201a NY", 
+      "object_id": "160", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 334, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:18:41", 
+      "object_repr": "Shigeko Kabota 1976\u201a NYC", 
+      "object_id": "159", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 333, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:18:02", 
+      "object_repr": "Jasper Johns #2 1979\u201a NY", 
+      "object_id": "158", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 332, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:17:15", 
+      "object_repr": "Jasper Johns #1 1979\u201a NY - Coming Soon", 
+      "object_id": "157", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 331, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-19 10:16:32", 
+      "object_repr": "Takao Iijim Ay-o 1979\u201a NY1979\u201a NY", 
+      "object_id": "156", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 330, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:32:19", 
+      "object_repr": "David Hockney 1983\u201a Paris", 
+      "object_id": "155", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 329, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:31:38", 
+      "object_repr": "Lillian Hellman 1981\u201a NYC", 
+      "object_id": "154", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 328, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:31:06", 
+      "object_repr": "Michael Heizer 1980\u201a NY", 
+      "object_id": "153", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 327, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:29:57", 
+      "object_repr": "Richard Diebenkorn #2 1976\u201a CA", 
+      "object_id": "152", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 326, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:28:36", 
+      "object_repr": "Richard Diebenkorn #1 1976\u201a CA", 
+      "object_id": "151", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 325, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:27:23", 
+      "object_repr": "Willem de Kooning #2 1978\u201a NY", 
+      "object_id": "150", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 324, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:26:48", 
+      "object_repr": "Willem de Kooning #1 1978\u201a NY", 
+      "object_id": "149", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 323, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:24:57", 
+      "object_repr": "John Cage #2 1979\u201a NY", 
+      "object_id": "148", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 322, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:24:02", 
+      "object_repr": "John Cage #1 1978\u201a NY", 
+      "object_id": "147", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 321, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:22:29", 
+      "object_repr": "Judy Chicago #2 1976\u201a CA1976\u201a CA", 
+      "object_id": "146", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 320, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:21:11", 
+      "object_repr": "Judy Chicago #1 1976\u201a CA1976\u201a CA", 
+      "object_id": "145", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 319, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:19:32", 
+      "object_repr": "Vija Celmins #2 1976\u201a CA1976\u201a CA", 
+      "object_id": "144", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 318, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:18:48", 
+      "object_repr": "Vija Celmins #1 1976\u201a CA", 
+      "object_id": "143", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 317, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:17:18", 
+      "object_repr": "Manuel Alvarez Bravo 1981\u201a CA", 
+      "object_id": "142", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 316, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:15:47", 
+      "object_repr": "John Baldessari #2 1976; Los Angeles\u201a CA1976; Los Angeles\u201a CA", 
+      "object_id": "141", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 315, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:14:57", 
+      "object_repr": "John Baldessari #1 1976; Los Angeles\u201a CA1976; Los Angeles\u201a CA", 
+      "object_id": "140", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 314, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 22:02:20", 
+      "object_repr": "Michael Nyman. Composer 1979", 
+      "object_id": "139", 
+      "change_message": "Changed shot_date.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 313, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:02:04", 
+      "object_repr": "Michael Nyman. Composer 1979", 
+      "object_id": "139", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 312, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:01:20", 
+      "object_repr": "Philip Glass. Composer 1979-1982", 
+      "object_id": "138", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 311, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 22:00:37", 
+      "object_repr": "Liz Phillips. Composer Sound Installation 1979-1982", 
+      "object_id": "137", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 310, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:56:59", 
+      "object_repr": "Steve Reich #2. Composer 1979-1982", 
+      "object_id": "136", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 309, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:55:58", 
+      "object_repr": "Steve Reich #1. Composer 1979-1982", 
+      "object_id": "135", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 308, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:54:43", 
+      "object_repr": "Joan Jonas #2. Performance 1979-1982", 
+      "object_id": "134", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 307, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:53:36", 
+      "object_repr": "Joan Jonas #1. Performance 1979-1982", 
+      "object_id": "133", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 306, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:51:44", 
+      "object_repr": "Max Neuhaus. Composer 1979-1982", 
+      "object_id": "132", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 305, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:51:03", 
+      "object_repr": "Douglas Ewart. Composer 1979-1982", 
+      "object_id": "131", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 304, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:50:21", 
+      "object_repr": "Charlemagne Palestine. Performance 1979-1982", 
+      "object_id": "130", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 303, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:48:16", 
+      "object_repr": "David Behrman. Composer 1979-1982", 
+      "object_id": "129", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 302, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:47:31", 
+      "object_repr": "Tony Ramos. Performance 1979-1982", 
+      "object_id": "128", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 301, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:46:58", 
+      "object_repr": "George Lewis. Composer 1979-1982", 
+      "object_id": "127", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 300, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:45:38", 
+      "object_repr": "Steve Reich. Composer 1979-1982", 
+      "object_id": "126", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 299, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:44:23", 
+      "object_repr": "Richard Teitelbaum. Composer 1979-1982", 
+      "object_id": "125", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 298, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:42:41", 
+      "object_repr": "Spalding Gray. Writer Performer 1979-1982", 
+      "object_id": "124", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 297, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:41:40", 
+      "object_repr": "Carles Santos. Composer Performance 1979-1982", 
+      "object_id": "123", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 296, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:35:21", 
+      "object_repr": "Simone Forti. Choreographer 1979-1982", 
+      "object_id": "122", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 295, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:33:21", 
+      "object_repr": "Charlemagne Palestine. Composer 1979-1982", 
+      "object_id": "121", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 294, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:32:12", 
+      "object_repr": "Robert Ashley. Composer Writer 1979-1982", 
+      "object_id": "120", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 293, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:31:11", 
+      "object_repr": "Maryanne Amacher. Composer 1979-1982", 
+      "object_id": "119", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 292, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:27:06", 
+      "object_repr": "Arnie Zane and Bill T. Jones Dance 1979-1982", 
+      "object_id": "118", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 291, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:26:15", 
+      "object_repr": "Meredith Monk. Composer 1979-1982", 
+      "object_id": "117", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 290, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 21:24:31", 
+      "object_repr": "John Cage. Composer 1979-1982", 
+      "object_id": "116", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 289, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:33:55", 
+      "object_repr": "Peter Kirby & Sarah Tamore 1974", 
+      "object_id": "115", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 288, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 20:33:22", 
+      "object_repr": "Lita Albuquereuq & Steve Kahn 1974", 
+      "object_id": "113", 
+      "change_message": "Changed thumbnail_name.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 287, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:32:52", 
+      "object_repr": "Mark & Georgie Ross 1974", 
+      "object_id": "114", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 286, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:32:04", 
+      "object_repr": "Lita Albuquereuq & Steve Kahn 1974", 
+      "object_id": "113", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 285, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:31:14", 
+      "object_repr": "John Sturgeon & Aysha Quinn 1974", 
+      "object_id": "112", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 284, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:30:21", 
+      "object_repr": "John Hunt & Judith Binder 1974", 
+      "object_id": "111", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 283, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:29:34", 
+      "object_repr": "John Baker & Jan Shippard 1974", 
+      "object_id": "110", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 282, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:29:03", 
+      "object_repr": "Joe & Chris Crash 1974", 
+      "object_id": "109", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 281, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:28:30", 
+      "object_repr": "Jack Destiny 1974", 
+      "object_id": "108", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 280, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:27:52", 
+      "object_repr": "Elizabeth Friedman & Patrick Patterson 1974", 
+      "object_id": "107", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 279, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:26:45", 
+      "object_repr": "Ed Moses & Nancy Drew 1974", 
+      "object_id": "106", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 278, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:25:14", 
+      "object_repr": "David & Peggy Ross 1974", 
+      "object_id": "105", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 277, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:24:13", 
+      "object_repr": "David James & JoAnne Edmonds 1974", 
+      "object_id": "104", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 276, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:23:19", 
+      "object_repr": "Conie Lou Ellen & Peter Barlett 1974", 
+      "object_id": "103", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 275, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:22:43", 
+      "object_repr": "Claude & Bessy Philmena 1974", 
+      "object_id": "102", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 274, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 20:19:04", 
+      "object_repr": "Peter & Liz Gould 1974", 
+      "object_id": "101", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 273, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:19:24", 
+      "object_repr": "Stewart Sherman", 
+      "object_id": "100", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 272, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:18:39", 
+      "object_repr": "Ushio Amagatsu, Performance Artist", 
+      "object_id": "99", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 271, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:17:56", 
+      "object_repr": "Jacques Monory, Painter", 
+      "object_id": "98", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 270, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:17:07", 
+      "object_repr": "Tod Machover, Composer", 
+      "object_id": "97", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 269, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:16:20", 
+      "object_repr": "Julia Kristeva and Son David", 
+      "object_id": "96", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 268, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:15:34", 
+      "object_repr": "Jean-Toussaint Desanti, Writer", 
+      "object_id": "95", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 267, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:11:02", 
+      "object_repr": "Jochen Gerz Performance, Artist", 
+      "object_id": "94", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 266, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:10:17", 
+      "object_repr": "Valere Novarina, Writer Performance", 
+      "object_id": "93", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 265, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:06:20", 
+      "object_repr": "Takis, Painter", 
+      "object_id": "92", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 264, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:05:22", 
+      "object_repr": "Philippe Sollers, Writer", 
+      "object_id": "91", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 263, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:04:33", 
+      "object_repr": "Robert Doisneau, Photographer", 
+      "object_id": "90", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 262, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 18:00:54", 
+      "object_repr": "Dominique Desanti, Writer", 
+      "object_id": "89", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 261, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:59:07", 
+      "object_repr": "Jean-Claude Eloy, Composer", 
+      "object_id": "88", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 260, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:56:48", 
+      "object_repr": "Andreas Senser, Painter", 
+      "object_id": "87", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 259, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:53:27", 
+      "object_repr": "Orlan Performance, Artist", 
+      "object_id": "86", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 258, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:52:05", 
+      "object_repr": "Maurice Roche, Poet, Writer", 
+      "object_id": "85", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 257, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:51:02", 
+      "object_repr": "Philippe Sollers, Writer", 
+      "object_id": "84", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 256, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 17:50:03", 
+      "object_repr": "Pierre Boulez, Composer", 
+      "object_id": "82", 
+      "change_message": "Changed shot_date.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 255, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:49:55", 
+      "object_repr": "David Hockney, Painter", 
+      "object_id": "83", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 254, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 17:47:07", 
+      "object_repr": "Pierre Boulez, Composer", 
+      "object_id": "82", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 253, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:56:44", 
+      "object_repr": "Joseph Piscitello, Sent the kids to college", 
+      "object_id": "81", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 252, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:55:54", 
+      "object_repr": "Anthony Palazola, Telling us", 
+      "object_id": "80", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 251, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:54:48", 
+      "object_repr": "Joseph Curcuru, Same bait", 
+      "object_id": "79", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 250, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:50:45", 
+      "object_repr": "John Quince, I was scared", 
+      "object_id": "78", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 249, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:50:07", 
+      "object_repr": "Thomas Randazza, No life for a kid", 
+      "object_id": "77", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 248, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:49:19", 
+      "object_repr": "Palazola & Marino, Fixing net", 
+      "object_id": "76", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 247, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:48:25", 
+      "object_repr": "Thomas Randazza, Vacation on a boat", 
+      "object_id": "75", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 246, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:43:43", 
+      "object_repr": "Thomas Silveira, Lobster fishing", 
+      "object_id": "74", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 245, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:42:58", 
+      "object_repr": "Thomas Parisi", 
+      "object_id": "73", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 244, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:42:06", 
+      "object_repr": "Kenneth Cotto, An old fish story ", 
+      "object_id": "72", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 243, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:40:35", 
+      "object_repr": "John Parisi, 50 years", 
+      "object_id": "71", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 242, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:38:54", 
+      "object_repr": "Romeo Solviletti, Different kind of fish like people", 
+      "object_id": "70", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 241, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:38:02", 
+      "object_repr": "Thomas Randazza, Sea sickness", 
+      "object_id": "69", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 240, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:36:25", 
+      "object_repr": "Dominic Montagnino, right place", 
+      "object_id": "68", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 239, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:28:03", 
+      "object_repr": "Traditional Dancers: Spain 2001", 
+      "object_id": "67", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 238, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:27:18", 
+      "object_repr": "Traditional Dancers: Hawaii 2001", 
+      "object_id": "66", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 237, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:26:34", 
+      "object_repr": "Traditional Dancers: East India 2001", 
+      "object_id": "65", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 236, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:25:57", 
+      "object_repr": "Traditional Dancers: Korea 2001", 
+      "object_id": "64", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 235, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 16:25:24", 
+      "object_repr": "Traditional Dancers: North India 2001", 
+      "object_id": "63", 
+      "change_message": "Changed video_name and thumbnail_name.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 234, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:24:47", 
+      "object_repr": "Traditional Dancers: North India 2001", 
+      "object_id": "63", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 233, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:24:07", 
+      "object_repr": "Traditional Dancers: Japan 2001", 
+      "object_id": "62", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 232, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:22:51", 
+      "object_repr": "Traditional Dancers: China 2001", 
+      "object_id": "61", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 231, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:22:12", 
+      "object_repr": "Traditional Dancers: Burma 2001", 
+      "object_id": "60", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 230, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:11:29", 
+      "object_repr": "Claude Simon", 
+      "object_id": "59", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 229, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:10:50", 
+      "object_repr": "Pierrette Fleutiaux", 
+      "object_id": "58", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 228, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:09:35", 
+      "object_repr": "Michel Rio", 
+      "object_id": "57", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 227, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:08:56", 
+      "object_repr": "Claude Ollier", 
+      "object_id": "56", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 226, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:01:19", 
+      "object_repr": "Michel DeGuy", 
+      "object_id": "55", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 225, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 16:00:35", 
+      "object_repr": "Danielle Sallenave", 
+      "object_id": "54", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 224, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:59:46", 
+      "object_repr": "Andre Du Bouchet ", 
+      "object_id": "53", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 223, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:58:52", 
+      "object_repr": "Pascal Quignard", 
+      "object_id": "52", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 222, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:58:10", 
+      "object_repr": "Florence DeLay", 
+      "object_id": "51", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 221, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:56:30", 
+      "object_repr": "Jacques Derrida", 
+      "object_id": "50", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 220, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:37:35", 
+      "object_repr": "Jacques Derrida 1985", 
+      "object_id": "49", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 219, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:36:51", 
+      "object_repr": "John Cage 1979", 
+      "object_id": "48", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 218, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:35:39", 
+      "object_repr": "Don Buchla 1985", 
+      "object_id": "47", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 217, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:34:59", 
+      "object_repr": "Portrait of a Young Woman: 3D Frame 1991", 
+      "object_id": "46", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 216, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:34:24", 
+      "object_repr": "In Memory of Dany Block 1989", 
+      "object_id": "45", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 215, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:33:47", 
+      "object_repr": "\"For I loved him and he didn't love back\" 1985", 
+      "object_id": "44", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 214, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:33:09", 
+      "object_repr": "New York and Brazil Homeless Installation - Coming Soon 1989", 
+      "object_id": "43", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 213, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:32:41", 
+      "object_repr": "9 Portraits 9 Women - Coming Soon 1989", 
+      "object_id": "42", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 212, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:24:52", 
+      "object_repr": "Central Park The Gates 2005", 
+      "object_id": "41", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 211, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:24:09", 
+      "object_repr": "Digi Girls 2004", 
+      "object_id": "40", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 210, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:23:33", 
+      "object_repr": "Normandy France 1990 - Coming Soon", 
+      "object_id": "39", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 209, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:22:59", 
+      "object_repr": "Rennes France 1983 - Coming Soon", 
+      "object_id": "38", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 208, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:22:17", 
+      "object_repr": "Saragossa Spain 1983 - Coming Soon", 
+      "object_id": "37", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 207, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:21:45", 
+      "object_repr": "Montpellier Southern France 1983", 
+      "object_id": "36", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 206, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:21:11", 
+      "object_repr": "Marais Paris France 1982-1983", 
+      "object_id": "35", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 205, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:20:38", 
+      "object_repr": "Montbeliard Eastern France 1981", 
+      "object_id": "34", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 204, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:20:04", 
+      "object_repr": "South Side Chicago 1978", 
+      "object_id": "33", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 203, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:19:21", 
+      "object_repr": "Soho New York 1978", 
+      "object_id": "32", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 202, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:18:50", 
+      "object_repr": "Little Italy New York 1977", 
+      "object_id": "31", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 201, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:18:14", 
+      "object_repr": "Venice California 1974-1976", 
+      "object_id": "30", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 200, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:02:30", 
+      "object_repr": "Father and Daughter: John Rockwell and Daughter Sasha 2001", 
+      "object_id": "29", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 199, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 15:00:15", 
+      "object_repr": "Mother and Son: Marianna and David ", 
+      "object_id": "28", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 198, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:57:16", 
+      "object_repr": "Mother and Son: Martha Wilson and Son ", 
+      "object_id": "27", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 197, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:56:17", 
+      "object_repr": "Self Portrait with Mother: Joan Logue and Helen Logue 1978", 
+      "object_id": "26", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 196, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:55:16", 
+      "object_repr": "Michael Nyman's Daughters New York 1981", 
+      "object_id": "25", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 195, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:53:41", 
+      "object_repr": "Katherine Murphy and Family 1979", 
+      "object_id": "24", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 194, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:52:15", 
+      "object_repr": "Chicago South Side Family: Mother\u201a Father\u201a Daughter and Grandmother 1979", 
+      "object_id": "23", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 193, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 3, 
+      "action_time": "2010-11-18 14:44:25", 
+      "object_repr": "Diamanda Galas, Composer Performance 1984", 
+      "object_id": "20", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 192, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:43:41", 
+      "object_repr": "Donald Buchla, Composer 1984", 
+      "object_id": "22", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 191, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:42:30", 
+      "object_repr": "Tim Hatch Earthquake 1984", 
+      "object_id": "21", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 190, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:37:39", 
+      "object_repr": "Diamanda Galas, Composer Performance 1984", 
+      "object_id": "20", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 189, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:37:38", 
+      "object_repr": "Diamanda Galas, Composer Performance 1984", 
+      "object_id": "19", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 188, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:34:51", 
+      "object_repr": "Star Sutherland, Video-Artist 1984", 
+      "object_id": "18", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 187, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:33:49", 
+      "object_repr": "Anna Halprin, Dancer 1984", 
+      "object_id": "17", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 186, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:23:19", 
+      "object_repr": "Tod Machover USA", 
+      "object_id": "16", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 185, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:22:27", 
+      "object_repr": "Michael Levinas France", 
+      "object_id": "15", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 184, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:21:14", 
+      "object_repr": "Alvin Curran Italy", 
+      "object_id": "14", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 183, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:19:57", 
+      "object_repr": "Carles Santos Spain", 
+      "object_id": "13", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 182, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 14:15:11", 
+      "object_repr": "Michael Nyman England", 
+      "object_id": "12", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 181, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:41:09", 
+      "object_repr": "Kamala Cesar Bharata Natyam", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 180, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:40:25", 
+      "object_repr": "Ren\u00e9 and Georgette and Their Dog After the War ", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 179, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:38:50", 
+      "object_repr": "Self Portrait Post 911. 2001", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 178, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:38:04", 
+      "object_repr": "Auto Portrait. 1972-1983 ", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 177, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:34:03", 
+      "object_repr": "Self Portrait with Mother. 1979 ", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 176, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:19:53", 
+      "object_repr": "Rosa Parks & Barack Obama 2009", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 175, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:18:45", 
+      "object_repr": "Cesar Chavez 1989 CA", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 174, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:15:48", 
+      "object_repr": "Rosa Parks 1989 MI", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 173, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:06:43", 
+      "object_repr": "Weaver and Tailor Sucromu Liberia 1971", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 172, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:05:37", 
+      "object_repr": "Women Working Sucromu Liberia 1971", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 171, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 13:04:15", 
+      "object_repr": "West Africa: Outside Looking In", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 170, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:37:58", 
+      "object_repr": "DIGITAL LIMNINGS:  Traditional Dancers: Burma, China, Hawaii, Japan, North India, South India, Spain. 2001 ", 
+      "object_id": "18", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 169, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:37:35", 
+      "object_repr": "5 COMPOSERS 5 COUNTRIES: England, Italy, France, Spain and USA. 1988", 
+      "object_id": "17", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 168, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:37:10", 
+      "object_repr": "NEW ENGLAND FISHERMEN, 30 SECOND STORIES 1984-1985 ", 
+      "object_id": "16", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 167, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:36:44", 
+      "object_repr": "FRENCH WRITERS, 30 SECOND PORTRAITS 1985", 
+      "object_id": "15", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 166, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:36:28", 
+      "object_repr": "FRENCH WRITERS, 30 SECOND PORTRAITS 1985", 
+      "object_id": "15", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:36:06", 
+      "object_repr": "SAN FRANCISCO ARTIST, 30 SECOND PORTRAITS 1984", 
+      "object_id": "14", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:35:45", 
+      "object_repr": "FRENCH ARTIST, 30 SECOND PORTRAITS 1982-1983", 
+      "object_id": "13", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:32:15", 
+      "object_repr": "NEW YORK ARTIST, 30 SECOND PORTRAITS 1979-1982", 
+      "object_id": "12", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:31:47", 
+      "object_repr": "VALENTINE SERIES: CALIFORNIA FRIENDS. 1976", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:31:26", 
+      "object_repr": "KAMALA CESAR: BHARATA NATYAM ", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:31:03", 
+      "object_repr": "BERLIN SERIES 1986 - COMING SOON", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:30:49", 
+      "object_repr": "RENE AND GEORGETTE AND THEIR DOG AFTER THE WAR ", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:30:23", 
+      "object_repr": "PORTRAITS FOR INSTALLATION ", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:29:58", 
+      "object_repr": "VIDEO PORTRAIT: SELF PORTRAITS", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:22:51", 
+      "object_repr": "THE NEIGHBORHOOD SERIES 1972-2005", 
+      "object_id": "5", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:22:45", 
+      "object_repr": "FAMILY PORTRAIT SERIES 1979-1980", 
+      "object_id": "4", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:22:39", 
+      "object_repr": "CIVIL RIGHTS PIONEERS", 
+      "object_id": "3", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:22:32", 
+      "object_repr": "AMERICAN ARTISTS 1975-1989", 
+      "object_id": "2", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-18 12:22:25", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:21:30", 
+      "object_repr": "THE NEIGHBORHOOD SERIES 1972-2005", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:21:05", 
+      "object_repr": "FAMILY PORTRAIT SERIES 1979-1980", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:20:34", 
+      "object_repr": "CIVIL RIGHTS PIONEERS", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:20:03", 
+      "object_repr": "AMERICAN ARTISTS 1975-1989", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-18 12:19:33", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-11 13:26:05", 
+      "object_repr": "THE NEIGHBORHOOD SERIES 1972-2005", 
+      "object_id": "5", 
+      "change_message": "Changed id_number.", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 145, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:29:26", 
+      "object_repr": "Michael Nyman. Composer 1979", 
+      "object_id": "117", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:28:39", 
+      "object_repr": "Philip Glass. Composer 1979-1982", 
+      "object_id": "116", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:28:01", 
+      "object_repr": "Liz Phillips. Composer Sound Installation 1979-1982", 
+      "object_id": "115", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:27:19", 
+      "object_repr": "Steve Reich #2. Composer 1979-1982", 
+      "object_id": "114", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:26:14", 
+      "object_repr": "Steve Reich #1. Composer 1979-1982", 
+      "object_id": "113", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:24:39", 
+      "object_repr": "Joan Jonas #2. Performance 1979-1982", 
+      "object_id": "112", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:23:45", 
+      "object_repr": "Joan Jonas #1. Performance 1979-1982", 
+      "object_id": "111", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:23:05", 
+      "object_repr": "Max Neuhaus. Composer 1979-1982", 
+      "object_id": "110", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:22:20", 
+      "object_repr": "Douglas Ewart. Composer 1979-1982", 
+      "object_id": "109", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:21:44", 
+      "object_repr": "Charlemagne Palestine. Performance 1979-1982", 
+      "object_id": "108", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:20:59", 
+      "object_repr": "David Behrman. Composer 1979-1982", 
+      "object_id": "107", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:20:25", 
+      "object_repr": "Tony Ramos. Performance 1979-1982", 
+      "object_id": "106", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:19:47", 
+      "object_repr": "George Lewis. Composer 1979-1982", 
+      "object_id": "105", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:19:06", 
+      "object_repr": "Steve Reich. Composer 1979-1982", 
+      "object_id": "104", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:18:07", 
+      "object_repr": "Richard Teitelbaum. Composer 1979-1982", 
+      "object_id": "103", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:17:19", 
+      "object_repr": "Spalding Gray. Writer Performer 1979-1982", 
+      "object_id": "102", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:16:38", 
+      "object_repr": "Carles Santos. Composer Performance 1979-1982", 
+      "object_id": "101", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:15:33", 
+      "object_repr": "Simone Forti. Choreographer 1979-1982", 
+      "object_id": "100", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:14:45", 
+      "object_repr": "Charlemagne Palestine. Composer 1979-1982", 
+      "object_id": "99", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:13:57", 
+      "object_repr": "Robert Ashley. Composer Writer 1979-1982", 
+      "object_id": "98", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:13:21", 
+      "object_repr": "Maryanne Amacher. Composer 1979-1982", 
+      "object_id": "97", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:12:38", 
+      "object_repr": "Arnie Zane and Bill T. Jones Dance 1979-1982", 
+      "object_id": "96", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:11:52", 
+      "object_repr": "Meredith Monk. Composer 1979-1982", 
+      "object_id": "95", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:11:11", 
+      "object_repr": "John Cage. Composer 1979-1982", 
+      "object_id": "94", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:09:44", 
+      "object_repr": "Peter Kirby & Sarah Tamore 1974", 
+      "object_id": "93", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:09:07", 
+      "object_repr": "Mark & Georgie Ross 1974", 
+      "object_id": "92", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:08:17", 
+      "object_repr": "Lita Albuquereuq & Steve Kahn 1974", 
+      "object_id": "91", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:07:43", 
+      "object_repr": "John Sturgeon & Aysha Quinn 1974", 
+      "object_id": "90", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:07:07", 
+      "object_repr": "John Hunt & Judith Binder 1974", 
+      "object_id": "89", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:06:20", 
+      "object_repr": "John Baker & Jan Shippard 1974", 
+      "object_id": "88", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:05:30", 
+      "object_repr": "Joe & Chris Crash 1974", 
+      "object_id": "87", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:04:21", 
+      "object_repr": "Jack Destiny 1974", 
+      "object_id": "86", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:03:40", 
+      "object_repr": "Elizabeth Friedman & Patrick Patterson 1974", 
+      "object_id": "85", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 16:02:38", 
+      "object_repr": "Ed Moses & Nancy Drew 1974", 
+      "object_id": "84", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:56:27", 
+      "object_repr": "David & Peggy Ross 1974", 
+      "object_id": "83", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:55:24", 
+      "object_repr": "David James & JoAnne Edmonds 1974", 
+      "object_id": "82", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:54:43", 
+      "object_repr": "Conie Lou Ellen & Peter Barlett 1974", 
+      "object_id": "81", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:54:14", 
+      "object_repr": "Claude & Bessy Philmena 1974", 
+      "object_id": "80", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:53:42", 
+      "object_repr": "Peter & Liz Gould 1974", 
+      "object_id": "79", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:51:27", 
+      "object_repr": "Kamala Cesar Bharata Natyam", 
+      "object_id": "78", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:50:46", 
+      "object_repr": "Ren\u00e9 and Georgette and Their Dog After the War ", 
+      "object_id": "77", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:49:52", 
+      "object_repr": "Jacques Derrida 1985", 
+      "object_id": "76", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:48:49", 
+      "object_repr": "John Cage 1979", 
+      "object_id": "75", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:47:52", 
+      "object_repr": "Don Buchla 1985", 
+      "object_id": "74", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:47:18", 
+      "object_repr": "Portrait of a Young Woman: 3D Frame 1991", 
+      "object_id": "73", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:46:35", 
+      "object_repr": "In Memory of Dany Block 1989", 
+      "object_id": "72", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:45:40", 
+      "object_repr": "\"For I loved him and he didn't love back\" 1985", 
+      "object_id": "71", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:44:29", 
+      "object_repr": "New York and Brazil Homeless Installation - Coming Soon 1989", 
+      "object_id": "70", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:43:52", 
+      "object_repr": "9 Portraits 9 Women - Coming Soon 1989", 
+      "object_id": "69", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:41:20", 
+      "object_repr": "Self Portrait Post 911. 2001", 
+      "object_id": "68", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:40:46", 
+      "object_repr": "Auto Portrait. 1972-1983 ", 
+      "object_id": "67", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:39:48", 
+      "object_repr": "Self Portrait with Mother. 1979 ", 
+      "object_id": "66", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:38:02", 
+      "object_repr": "Central Park The Gates 2005", 
+      "object_id": "65", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:37:29", 
+      "object_repr": "Digi Girls 2004", 
+      "object_id": "64", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:36:54", 
+      "object_repr": "Normandy France 1990 - Coming Soon", 
+      "object_id": "63", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:36:25", 
+      "object_repr": "Rennes France 1983 - Coming Soon", 
+      "object_id": "62", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:35:52", 
+      "object_repr": "Saragossa Spain 1983 - Coming Soon", 
+      "object_id": "61", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:35:14", 
+      "object_repr": "Montpellier Southern France 1983", 
+      "object_id": "60", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:34:33", 
+      "object_repr": "Marais Paris France 1982-1983", 
+      "object_id": "59", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:33:51", 
+      "object_repr": "Montbeliard Eastern France 1981", 
+      "object_id": "58", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:33:06", 
+      "object_repr": "South Side Chicago 1978", 
+      "object_id": "57", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:32:19", 
+      "object_repr": "Soho New York 1978", 
+      "object_id": "56", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:31:49", 
+      "object_repr": "Little Italy New York 1977", 
+      "object_id": "55", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:31:14", 
+      "object_repr": "Venice California 1974-1976", 
+      "object_id": "54", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:28:28", 
+      "object_repr": "Father and Daughter: John Rockwell and Daughter Sasha 2001", 
+      "object_id": "53", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:27:05", 
+      "object_repr": "Mother and Son: Marianna and David ", 
+      "object_id": "52", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:25:21", 
+      "object_repr": "Mother and Son: Martha Wilson and Son ", 
+      "object_id": "51", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:23:37", 
+      "object_repr": "Self Portrait with Mother: Joan Logue and Helen Logue 1978", 
+      "object_id": "50", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:21:47", 
+      "object_repr": "Michael Nyman's Daughters New York 1981", 
+      "object_id": "49", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:20:41", 
+      "object_repr": "Katherine Murphy and Family 1979", 
+      "object_id": "48", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:19:29", 
+      "object_repr": "Chicago South Side Family: Mother\u201a Father\u201a Daughter and Grandmother 1979", 
+      "object_id": "47", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-06 15:15:53", 
+      "object_repr": "Rosa Parks 1989 MI", 
+      "object_id": "44", 
+      "change_message": "Changed category.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:15:45", 
+      "object_repr": "Rosa Parks & Barack Obama 2009", 
+      "object_id": "46", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:15:00", 
+      "object_repr": "Cesar Chavez 1989 CA", 
+      "object_id": "45", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:14:11", 
+      "object_repr": "Rosa Parks 1989 MI", 
+      "object_id": "44", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:05:51", 
+      "object_repr": "Emmett Williams 1978\u201a NY", 
+      "object_id": "43", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:05:14", 
+      "object_repr": "Duane Valentine #2 1976\u201a CA", 
+      "object_id": "42", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:04:25", 
+      "object_repr": "Duane Valentine #1 1976\u201a CA", 
+      "object_id": "41", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:03:42", 
+      "object_repr": "Big Joe Turner 1981\u201a NYC", 
+      "object_id": "40", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:02:43", 
+      "object_repr": "Studs Turkel 1979\u201a IL - Coming Soon", 
+      "object_id": "39", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:01:51", 
+      "object_repr": "Self Portrait 1977\u201a NY", 
+      "object_id": "38", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 15:00:16", 
+      "object_repr": "Robert Rauschenberg #1 1978\u201a NY", 
+      "object_id": "37", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:59:27", 
+      "object_repr": "Ed Ruscha 1976\u201a CA", 
+      "object_id": "36", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:58:40", 
+      "object_repr": "Charlemagne Palestine 1977\u201a NY", 
+      "object_id": "35", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:57:21", 
+      "object_repr": "Nam June Paik 1978\u201a NY", 
+      "object_id": "34", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:56:24", 
+      "object_repr": "Pat O'Neill #2 1976\u201a CA", 
+      "object_id": "33", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:55:55", 
+      "object_repr": "Pat O'Neill #1 1976\u201a CA1976\u201a CA", 
+      "object_id": "32", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:55:12", 
+      "object_repr": "Katherine Murphy #1 1980\u201a MA", 
+      "object_id": "31", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:54:08", 
+      "object_repr": "Ed Moses #2 1976\u201a CA", 
+      "object_id": "30", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:53:21", 
+      "object_repr": "Ed Moses #1 1976\u201a CA", 
+      "object_id": "29", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:52:30", 
+      "object_repr": "Joan Mitchell 1980\u201a NY", 
+      "object_id": "28", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:51:37", 
+      "object_repr": "Roy Lichtenstein #1 1978\u201a NY1978\u201a NY", 
+      "object_id": "27", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:17:35", 
+      "object_repr": "Ed Kienholz 1985\u201a Berlin - Coming Soon", 
+      "object_id": "26", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:16:50", 
+      "object_repr": "Ellsworth Kelly #2 1978\u201a NY1978\u201a NY", 
+      "object_id": "25", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:16:08", 
+      "object_repr": "Ellsworth Kelly #1 1978\u201a NY", 
+      "object_id": "24", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:14:58", 
+      "object_repr": "Shigeko Kabota 1976\u201a NYC", 
+      "object_id": "23", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:14:09", 
+      "object_repr": "Jasper Johns #2 1979\u201a NY", 
+      "object_id": "22", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:13:21", 
+      "object_repr": "Jasper Johns #1 1979\u201a NY - Coming Soon", 
+      "object_id": "21", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:11:14", 
+      "object_repr": "Takao Iijim Ay-o 1979\u201a NY1979\u201a NY", 
+      "object_id": "20", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:10:09", 
+      "object_repr": "David Hockney 1983\u201a Paris", 
+      "object_id": "19", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:09:16", 
+      "object_repr": "Lillian Hellman 1981\u201a NYC", 
+      "object_id": "18", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:08:28", 
+      "object_repr": "Michael Heizer 1980\u201a NY", 
+      "object_id": "17", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:06:49", 
+      "object_repr": "Richard Diebenkorn #2 1976\u201a CA", 
+      "object_id": "16", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:05:45", 
+      "object_repr": "Richard Diebenkorn #1 1976\u201a CA", 
+      "object_id": "15", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:04:09", 
+      "object_repr": "Willem de Kooning #2 1978\u201a NY", 
+      "object_id": "14", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:03:15", 
+      "object_repr": "Willem de Kooning #1 1978\u201a NY", 
+      "object_id": "13", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:02:20", 
+      "object_repr": "John Cage #2 1979\u201a NY", 
+      "object_id": "12", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-06 14:01:37", 
+      "object_repr": "John Cage #1 1978\u201a NY", 
+      "object_id": "11", 
+      "change_message": "Changed video_name and thumbnail_name.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 14:00:52", 
+      "object_repr": "John Cage #1 1978\u201a NY", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:59:13", 
+      "object_repr": "Judy Chicago #2 1976\u201a CA1976\u201a CA", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:53:40", 
+      "object_repr": "Judy Chicago #1 1976\u201a CA1976\u201a CA", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:52:56", 
+      "object_repr": "Vija Celmins #2 1976\u201a CA1976\u201a CA", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:52:02", 
+      "object_repr": "Vija Celmins #1 1976\u201a CA", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:50:26", 
+      "object_repr": "Manuel Alvarez Bravo 1981\u201a CA", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:48:43", 
+      "object_repr": "John Baldessari #2 1976; Los Angeles\u201a CA1976; Los Angeles\u201a CA", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:48:07", 
+      "object_repr": "John Baldessari #1 1976; Los Angeles\u201a CA1976; Los Angeles\u201a CA", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:45:37", 
+      "object_repr": "DIGITAL LIMNINGS:  Traditional Dancers: Burma, China, Hawaii, Japan, North India, South India, Spain. 2001 ", 
+      "object_id": "18", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:45:09", 
+      "object_repr": "5 COMPOSERS 5 COUNTRIES: England, Italy, France, Spain and USA. 1988", 
+      "object_id": "17", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:44:42", 
+      "object_repr": "NEW ENGLAND FISHERMEN, 30 SECOND STORIES 1984-1985 ", 
+      "object_id": "16", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:44:18", 
+      "object_repr": "FRENCH WRITERS, 30 SECOND PORTRAITS 1985", 
+      "object_id": "15", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:43:48", 
+      "object_repr": "SAN FRANCISCO ARTIST, 30 SECOND PORTRAITS 1984", 
+      "object_id": "14", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:43:23", 
+      "object_repr": "FRENCH ARTIST, 30 SECOND PORTRAITS 1982-1983", 
+      "object_id": "13", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:42:55", 
+      "object_repr": "NEW YORK ARTIST, 30 SECOND PORTRAITS 1979-1982", 
+      "object_id": "12", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:42:22", 
+      "object_repr": "VALENTINE SERIES: CALIFORNIA FRIENDS. 1976", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:41:55", 
+      "object_repr": "KAMALA CESAR: BHARATA NATYAM ", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:41:28", 
+      "object_repr": "BERLIN SERIES 1986 - COMING SOON", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:41:05", 
+      "object_repr": "RENE AND GEORGETTE AND THEIR DOG AFTER THE WAR ", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:40:36", 
+      "object_repr": "PORTRAITS FOR INSTALLATION ", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:40:01", 
+      "object_repr": "VIDEO PORTRAIT: SELF PORTRAITS", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:39:32", 
+      "object_repr": "THE NEIGHBORHOOD SERIES 1972-2005", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:39:03", 
+      "object_repr": "FAMILY PORTRAIT SERIES 1979-1980", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:38:11", 
+      "object_repr": "CIVIL RIGHTS PIONEERS", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 13:37:20", 
+      "object_repr": "AMERICAN ARTISTS 1975-1989", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:31:14", 
+      "object_repr": "Weaver and Tailor Sucromu Liberia 1971", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:30:46", 
+      "object_repr": "Women Working Sucromu Liberia 1971", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:30:16", 
+      "object_repr": "West Africa: Outside Looking In", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:28:51", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:15:43", 
+      "object_repr": "Weaver and Tailor Sucromu Liberia 1971", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:14:48", 
+      "object_repr": "Women Working Sucromu Liberia 1971", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:13:53", 
+      "object_repr": "West Africa: Outside Looking In ", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:13:49", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 2, 
+      "action_time": "2010-11-06 12:08:51", 
+      "object_repr": "West Africa: Outside Looking In", 
+      "object_id": "1", 
+      "change_message": "Changed namefile.", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:03:17", 
+      "object_repr": "West Africa: Outside Looking In", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 10
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 12:03:12", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+      "action_flag": 1, 
+      "action_time": "2010-11-06 11:58:21", 
+      "object_repr": "FIRST VIDEO PORTRAIT 1971", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 9
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "darthrayder", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2010-11-20 12:56:59", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$f6927$ed8b5ce63d52ff4556cd6e6ce4c4aef21c289582", 
+      "email": "robert.l.ray@gmail.com", 
+      "date_joined": "2010-11-06 11:53:06"
+    }
+  }
+]
