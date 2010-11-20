@@ -9,6 +9,7 @@ import platform
 # Define environment-dependent settings modules
 envSettings = {
     ("donteventryit","/home/darthrayder/dev/videoportrait/"):"local",
+    ("newdelhi","/home/robertlray/beta.videoportrait.net/"): "beta",
 }
 
 def exitImportError(moduleName):

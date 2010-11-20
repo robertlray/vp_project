@@ -8,7 +8,7 @@ from common import VIDEOPORTRAIT_ROOT, MIDDLEWARE_CLASSES
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-CONFIG_SETTINGS = 'gdev'
+CONFIG_SETTINGS = 'beta'
 
 DATABASE_ENGINE = 'sqlite3'
 DATABASE_NAME = os.path.join(VIDEOPORTRAIT_ROOT,'devel.sqlite')
@@ -24,4 +24,4 @@ ADMIN_MEDIA_PREFIX = '/media/admin'
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
 # MEDIA_URL = 'http://127.0.0.1:8000/media/'
 
-ROOT_URL = "http://127.0.0.1:8000"
+ROOT_URL = "http://beta.videoportrait.net"
