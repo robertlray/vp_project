@@ -10,6 +10,7 @@ import platform
 envSettings = {
     ("donteventryit","/home/darthrayder/dev/videoportrait/"):"local",
     ("newdelhi","/home/robertlray/beta.videoportrait.net/"): "beta",
+    ("newdelhi","/home/erikdykema/videoportrait.net/"): "prod",
 }
 
 def exitImportError(moduleName):
