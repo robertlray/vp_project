@@ -1,0 +1,38 @@
+"Pierre Boulez&sbquo; Composer","","boulez.flv","boulez.jpg","30 Second Portrait"
+
+"David Hockney&sbquo; Painter","","Hockney_David.flv","Hockney_David.jpg","30 Second Portrait"
+
+"Philippe Sollers&sbquo; Writer","","Sollers_Philippe_01.flv","Sollers_Philippe1.jpg","30 Second Portrait"
+
+"Maurice Roche&sbquo; Poet&sbquo; Writer","","Roche_Maurice.flv","Roche_Maurice.jpg","30 Second Portrait"
+
+"Orlan Performance&sbquo; Artist","","Orlan_.flv","orlan.jpg","30 Second Portrait"
+
+"Andreas Senser&sbquo; Painter","","Senser_Andreas.flv","Senser_Andreas.jpg","30 Second Portrait"
+
+"Jean-Claude Eloy&sbquo; Composer","","eloy.flv","eloy.jpg","30 Second Portrait"
+
+"Dominique Desanti&sbquo; Writer","","Desanti2.flv","Desanti2.jpg","30 Second Portrait"
+
+"Robert Doisneau&sbquo; Photographer","","doisneau.flv","doisneau.jpg","30 Second Portrait"
+
+"Philippe Sollers&sbquo; Writer","","Sollers_Philippe_02.flv","sollers.jpg","30 Second Portrait"
+
+"Takis&sbquo; Painter","","Takis_Artist_Paris_joan_logue_83.mov.flv","takis.jpg","30 Second Portrait"
+
+"Valere Novarina&sbquo; Writer Performance","","Novarina_Valere.flv","novarina.jpg","30 Second Portrait"
+
+"Jochen Gerz Performance&sbquo; Artist","","Gerz_Jochen.flv","gerz1.jpg","30 Second Portrait"
+
+"Jean-Toussaint Desanti&sbquo; Writer","","Desanti1.flv","Desanti1.jpg","30 Second Portrait"
+
+"Julia Kristeva and Son David","","Kristeva_Julia_David.flv","kristeva.jpg","30 Second Portrait"
+
+"Tod Machover&sbquo; Composer","","Machover_Tod1.flv","machover.jpg","30 Second Portrait"
+
+"Jacques Monory&sbquo; Painter","","Monory_Jacques.flv","monory.jpg","30 Second Portrait"
+
+"Ushio Amagatsu&sbquo; Performance Artist","","Amagatsu_Ushio.flv","amagatsu.jpg","30 Second Portrait"
+
+"Stewart Sherman","","stewart_sherman.flv","stewart_sherman.jpg","30 Second Portrait"
+

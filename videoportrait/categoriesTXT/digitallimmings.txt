@@ -1,0 +1,8 @@
+"Traditional Dancers: Burma","2001","burma.flv","burma.jpg"
+"Traditional Dancers: China","2001","china.flv","china.jpg"
+"Traditional Dancers: Japan","2001","japan.flv","japan.jpg"
+"Traditional Dancers: North India","2001","india.flv","india.jpg"
+"Traditional Dancers: Korea","2001","korea.flv","korea.jpg"
+"Traditional Dancers: East India","2001","east_india.flv","east_india.jpg"
+"Traditional Dancers: Hawaii","2001","hawaii.flv","hawaii.jpg"
+"Traditional Dancers: Spain","2001","spain.flv","spain.jpg"

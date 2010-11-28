@@ -1,0 +1,20 @@
+"Jacques Derrida","","Jacques_Derrida.flv","derrida.jpg"
+
+"Florence DeLay","","Florence_DeLay.flv","delay.jpg"
+
+"Pascal Quignard","","Pascal_Quignard01.flv","pascal_quignard.jpg"
+
+"Andre Du Bouchet","","Andre_DuBouchet.flv","dubouchet.jpg"
+
+"Danielle Sallenave","","Daniele_Sallenave.flv","sallenave.jpg"
+
+"Michel DeGuy","","Michel_DeGuy.flv","deguy.jpg"
+
+"Claude Ollier","","Claude_Ollier.flv","ollier.jpg"
+
+"Michel Rio","","Michel_Rio.flv","rio.jpg"
+
+"Pierrette Fleutiaux","","PFleutiaux01.flv","fleutiaux.jpg"
+
+"Claude Simon","","Claude_Simon.flv","simon.jpg"
+

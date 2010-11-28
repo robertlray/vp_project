@@ -1,0 +1,17 @@
+"Peter & Liz Gould","1974","gould.flv","gould.jpg"
+"Claude & Bessy Philmena","1974","philmena.flv","philmena.jpg"
+"Conie Lou Ellen & Peter Barlett","1974","barlett.flv","barlett.jpg"
+"David James & JoAnne Edmonds","1974","edmonds.flv","edmonds.jpg"
+"David & Peggy Ross","1974","ross.flv","ross.jpg"
+"Ed Moses & Nancy Drew","1974","drew.flv","drew.jpg"
+"Elizabeth Friedman & Patrick Patterson","1974","patterson.flv","patterson.jpg"
+"Jack Destiny","1974","destiny.flv","destiny.jpg"
+"Joe & Chris Crash","1974","crash.flv","crash.jpg"
+"John Baker & Jan Shippard","1974","shippard.flv","shippard.jpg"
+"John Hunt & Judith Binder","1974","binder.flv","binder.jpg"
+"John Sturgeon & Aysha Quinn","1974","quinn.flv","quinn.jpg"
+"Lita Albuquereuq & Steve Kahn","1974","kahn.flv","kahn.jpg"
+"Mark & Georgie Ross","1974","ross2.flv","ross2.jpg"
+"Peter Kirby & Sarah Tamore","1974","tamore.flv","tamore.jpg"
+
+

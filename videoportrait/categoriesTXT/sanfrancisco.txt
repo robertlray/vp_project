@@ -1,0 +1,11 @@
+"Anna Halprin&sbquo; Dancer","1984","halprin.flv","halprin.jpg"
+
+"Star Sutherland&sbquo; Video-Artist","1984","sutherland.flv","sutherland.jpg"
+
+"Diamanda Galas&sbquo; Composer Performance","1984","galas.flv","galas.jpg"
+
+"Tim Hatch Earthquake","1984","quake.flv","earthquake.jpg"
+
+"Donald Buchla&sbquo; Composer","1984","don_buchla_86.flv","don_buchla_86.jpg"
+
+

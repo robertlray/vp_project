@@ -1,0 +1,9 @@
+"9 Portraits 9 Women - Coming Soon","1989","","COMING_SOON.jpg"
+"New York and Brazil Homeless Installation - Coming Soon","1989","","COMING_SOON.jpg"
+"&quot;For I loved him and he didn't love back&quot;","1985","lovedhim.flv","lovedhim.jpg"
+"In Memory of Dany Block","1989","In_Memory_Dany_Block.flv","In_Memory_Dany_Block.jpg"
+"Portrait of a Young Woman: 3D Frame","1991","Portrait_Young_Girl.flv","Portrait_Young_Girl.jpg"
+"Don Buchla","1985","buchla.flv","buchla.jpg","1"
+"John Cage","1979","Cage_John5.flv","cage2.jpg","1"
+"Jacques Derrida","1985","derrida2.flv","derrida2.jpg","1"
+

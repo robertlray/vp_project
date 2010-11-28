@@ -1,0 +1,5 @@
+"Self Portrait with Mother."," 1979","Self_Portrait_with_Mother.flv","Self_Portrait_with_Mother.jpg"
+
+"Auto Portrait."," 1972-1983","Self_Portrait.flv","Self_Portrait.jpg"
+
+"Self Portrait Post 911."," 2001","self_911.flv","self911.jpg"
