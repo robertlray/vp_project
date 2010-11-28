@@ -91,7 +91,7 @@ td img {display: block;}body {
    <tr>
    {% for video in category.videos.all %}
       <td valign="top">
-      <a href="/vp_project/video/{{ video.id }}/"><img src="/media/{{ video.thumbnail_name }}/"></a><br><font size="2">{{ video.title }} <br></font></td>
+      <a href="/vp_project/video/{{ video.id }}/"><img src="/media/{{ video.thumbnail_name }}"></a><br><font size="2">{{ video.title }} <br></font></td>
       {% if forloop.counter|divisibleby:"4" %}</tr><tr>{% endif %}
 {% endfor %}
 </tr>
