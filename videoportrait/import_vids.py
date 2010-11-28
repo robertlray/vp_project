@@ -19,18 +19,20 @@ categories = {'firstvideo.txt': 18,
               'fivecomposers.txt': 2,
               'digitallimmings.txt': 1
               }
-# f = open('categoriesTXT/firstvideo.txt')
-z = f.readlines()
-for x in z:
-    y = x.split(',')
-    if len(y) >= 4:
-        title = y[0].strip('"')
-        dateline = y[1].strip('"')
-        videofilename = y[2].strip('"')
-        thumbnailfilename = y[3].strip().strip('"')
-        if len(y) == 5:
-            aspectratio = y[4].strip().strip('"')
-        else:
-            aspectratio = ""
-        print "title = %s, dateline = %s, videofilename = %s, thumbnailfilename = %s, aspectratio = %s" % (title,dateline,videofilename,thumbnailfilename,aspectratio)
+for filename, category_id in categories.iteritems():
+    fn = 'categoriesTXT/' + filename
+    f = open(fn)
+    z = f.readlines()
+    for x in z:
+        y = x.split(',')
+        if len(y) >= 4:
+            title = y[0].strip('"')
+            dateline = y[1].strip('"')
+            videofilename = y[2].strip('"')
+            thumbnailfilename = y[3].strip().strip('"')
+            if len(y) == 5:
+                aspectratio = y[4].strip().strip('"')
+            else:
+                aspectratio = ""
+            print "title = %s, dateline = %s, videofilename = %s, thumbnailfilename = %s, aspectratio = %s" % (title,dateline,videofilename,thumbnailfilename,aspectratio)
     
