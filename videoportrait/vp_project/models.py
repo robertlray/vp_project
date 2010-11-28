@@ -14,10 +14,12 @@ class Category(models.Model):
         return self.title
 class Video(models.Model):
     title = models.CharField(max_length=255)
+    datetime = models.CharField(max_length=255)
     description = models.TextField()
     shot_date = models.DateField()
     video_name = models.FileField(upload_to='videos')
     thumbnail_name = models.FileField(upload_to='thumbnails')
+    aspectratio = models.CharField(max_length=10)
     category = models.ForeignKey(Category,
                                  related_name='videos')
     def __unicode__(self):
