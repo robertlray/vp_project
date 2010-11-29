@@ -43,5 +43,5 @@ for filename, category_id in categories.iteritems():
             else:
                 new_vid.aspectratio = "0"
             print "title = %s, datetime = %s, description = %s, shotdate = %s, videofname = %s, thumbnailfname = %s, aspectratio = %s" % (new_vid.title,new_vid.datetime,new_vid.description,new_vid.shotdate,new_vid.video_name,new_vid.thumbnail_name,new_vid.aspectratio)
-            new_video_object.save()
+            new_vid.save()
     
