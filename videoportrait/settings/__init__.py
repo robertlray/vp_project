@@ -8,7 +8,7 @@ import platform
 
 # Define environment-dependent settings modules
 envSettings = {
-    ("donteventryit","/home/darthrayder/dev/videoportrait/"):"local",
+    ("donteventryit","/home/darthrayder/dev/"):"local",
     ("newdelhi","/home/robertlray/beta.videoportrait.net/"): "beta",
     ("newdelhi","/home/erikdykema/videoportrait.net/"): "prod",
 }
