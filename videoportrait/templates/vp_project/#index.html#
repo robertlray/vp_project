@@ -1,0 +1,98 @@
+
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!-- saved from url=(0014)about:internet --> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>Joan Logue: Video Portraits</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="google-site-verification" content="HnwdRWNFrBFTHwkEQhxenyojHpelHEPyzOlpArbFEcY" /> 
+<style type="text/css"> 
+td img {display: block;}body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+</style> 
+ 
+<style type="text/css"> 
+<!--
+-->
+ 
+.yrollover1 a{position:relative;}/* set stacking context*/
+.yrollover1 a span{
+          visibility:hidden;/* hide message initially*/
+          position:absolute;
+          /*-52*/
+          top:-45px;
+          /*501*/
+          left:400px;
+          width:120px;
+          padding:0px;
+          background:#333333;
+          color:#252525;
+          border:0px inset green;
+          background-color:#252525;
+          height:80px;
+}
+.yrollover1 a:hover{visibility:visible}/* ie bug needed to make span show*/
+.yrollover1 a:hover span{visibility:visible;}/* reveal image*/
+</style> 
+ 
+<link href="/media/css/styles.css" rel="stylesheet" type="text/css" /> 
+</head> 
+<body bgcolor="#252525"> 
+<table border="0" cellpadding="0" cellspacing="0" width="1057"> 
+       <tr><td>&nbsp;</td></tr>  
+  <tr> 
+   <td rowspan="4" width="35">&nbsp;</td> 
+   <td colspan="3" class="class2" align="left"><table width="911" border="0" cellpadding="0" cellspacing="0"> 
+    <tr><td width="748">&nbsp;</td><td class="class2" width="163" align="left"> 
+    	    <a href="about.html">about</a> &nbsp;
+	    <a href="mailto:videoportrait@gmail.com">contact</a>  &nbsp;
+    	    <a href="/vp_project/">home</a> &nbsp;
+	    </td> 
+    </tr></table></td> 
+   
+  </tr> 
+  <tr> 
+   <td width="473"><img name="index15B_r2_c2" src="/media/images/index15B_r2_c2.gif" width="473" height="104" border="0" id="index15B_r2_c2" alt="" /></td> 
+   <td rowspan="2" colspan="2">&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><br /><br /><br /></td> 
+  </tr> 
+ 
+</table> 
+
+<table border="0" cellpadding="0" cellspacing="0" width="400"> 
+  <tr class="clelevenGR"> 
+   <td width="40"> &nbsp; &nbsp; &nbsp; </td> 
+   <td> 
+ {% if category_list %}
+    {% for category in category_list %}
+        <p class ="class0"><strong>
+        <a href="/vp_project/{{ category.id }}/">{{ category.title }}</a>
+        </strong><br>
+        <span class="class3"> 
+        {{ category.description }}
+        </span> 
+         <p class="yrollover1">
+         {% for video in category.videos.all %}
+             <span class="class1">
+             <a href="/vp_project/video/{{ video.id }}/">{{ video.title }}<span class="stylesm"><img src="/media/{{ video.thumbnail_name}}/"</span></a>
+             </span><br>
+         {% endfor %}
+         </p>
+	 <br>
+    {% endfor %}
+    </p>
+{% endif %}
+  </td> 
+   <td></td> 
+  </tr> 
+<tr><td></td><td>All content on this and any related or linked sites or pages, including images, video, text, graphics, layout, and organization, Å© Joan Logue.  All rights reserved.</td></tr> 
+</table> 
+ 
+</body> 
+</html>

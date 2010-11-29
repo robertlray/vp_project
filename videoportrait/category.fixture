@@ -1,0 +1,200 @@
+[
+  {
+    "pk": 1, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "My work in video portraiture began in 1971 while working in Sucromu, a West African bush community. One morning as I was setting up my video portapac, a young boy from the village stood in front of my camera. He stared silently into the lens. It was at this moment I realized that the face is in a constant state of flux; the real time video exposes and makes public the sequences of silent thoughts.", 
+      "id_number": 18, 
+      "title": "FIRST VIDEO PORTRAIT 1971"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "LIMITED EDITIONS, ORIGINAL LENGTHS: 20 MINUTES", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Through an intimate and elegant use of the medium, Joan Logue pioneered and defined the art of video portraiture. I have found that artists like silence, and in the video portraits the viewer is allowed a personal view of an artist in his own private thoughts and world. Original length of silent portraits for installations: 10-20 minutes each.", 
+      "id_number": 17, 
+      "title": "AMERICAN ARTISTS 1975-1989"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Civil Rights Pioneers Rosa Parks and Cesar Chavez portraits were both made in 1989. Graciously, both Mrs. Parks and Mr. Chavez agreed to sit for their video portraits in silence. The viewer is now able to observer for him or herself, these two exceptional Americans who fought for our human dignity. Later I took my portrait of Rosa Parks from 1989 and joined it with the 2009 ceremonial Inauguration of President Obama 2009.", 
+      "id_number": 16, 
+      "title": "CIVIL RIGHTS PIONEERS"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Original length: vary in length from 2 minutes - 20 minutes each.", 
+      "id_number": 15, 
+      "title": "FAMILY PORTRAIT SERIES 1979-1980"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "1972-2005: ONE PORTRAIT REPRESENTED FOR EACH SERIES", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Each Neighborhood Series include approximately ten portraits per series. Original length: Portraits in these series range from 10-20 minutes each.", 
+      "id_number": 14, 
+      "title": "THE NEIGHBORHOOD SERIES 1972-2005"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Original length : vary from 2 seconds to 15 minutes.", 
+      "id_number": 13, 
+      "title": "VIDEO PORTRAIT: SELF PORTRAITS"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Original length of silent portraits for installation: 10-20 minutes each. \u00a91971-2010 A subject being recorded cannot hide behind his or her smile for long; thoughts and feelings begin to be exposed without verbal expression. The viewer is confronted with this contemplation and silence, witnessing a person speaking within him or herself. The Silent Video Portraits were made to be seen as the next step in portraiture - - A portrait in real time.", 
+      "id_number": 12, 
+      "title": "PORTRAITS FOR INSTALLATION "
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Ren\u00e9 and Georgette Magritte With Their Dog After The War - Originally produced as a music video for Paul Simon\u2019s song, this video is a tribute to Magritte\u2019s work and a visual interpretation of Simon\u2019s music and lyrics. This video won many awards for its unique and first time use of the Mirage and ADO to create the technologically surreal images. It was premi\u00e8red on Saturday Night Live, January 1984.", 
+      "id_number": 11, 
+      "title": "RENE AND GEORGETTE AND THEIR DOG AFTER THE WAR "
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": " ", 
+      "id_number": 10, 
+      "title": "BERLIN SERIES 1986 - COMING SOON"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Artists performing and explains the traditional dance of South India. Original Length: 4 minutes, 1995.", 
+      "id_number": 9, 
+      "title": "KAMALA CESAR: BHARATA NATYAM "
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "VIDEO PORTRAITS FOR INSTALLATION", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "The Valentine Series was a made in celebration of couples, friends, living in Venice California on Valentines Day. Each portrait varies in length.", 
+      "id_number": 8, 
+      "title": "VALENTINE SERIES: CALIFORNIA FRIENDS. 1976"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "30 SECOND PORTRAITS", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Inverting the form, style and time frame of commercial television advertising, Logue has produced a unique series of dynamic video portraits of avant-garde artists, writers, musicians and performers.", 
+      "id_number": 7, 
+      "title": "NEW YORK ARTIST, 30 SECOND PORTRAITS 1979-1982"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "30 SECOND PORTRAITS", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "30 Second Spots: Paris focuses on prominent artists, writers, philosophers and musicians working in Paris. Using elegant special effects, close-ups, and a highly condensed time frame, Logue captures her subjects in moments of intimacy and contemplation.", 
+      "id_number": 6, 
+      "title": "FRENCH ARTIST, 30 SECOND PORTRAITS 1982-1983"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "30 SECOND PORTRAITS", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Logue tailors the style and content of each succinct portrait to complement the idiosyncratic nature of the artist\u2019s work.", 
+      "id_number": 5, 
+      "title": "SAN FRANCISCO ARTIST, 30 SECOND PORTRAITS 1984"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "30 SECOND PORTRAITS", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Logue merges image with spoken and written text in Video Portraits: French Writers, utilizing elegant video techniques to illustrate the words of such prominent authors and theorists as Jacques Derrida, Andre Du Bouchet, and Florence Delay.", 
+      "id_number": 4, 
+      "title": "FRENCH WRITERS, 30 SECOND PORTRAITS 1985"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "1984-1985: 30 SECOND STORIES", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Presented with a straightforward charm, Logue\u2019s abbreviated portraits of fishermen in Gloucester and Boston Massachusetts are more than mere \u201cfish stories.\u201d Seen on their boats in the open sea, the fishermen speak directly to the camera, relating anecdotes and observations that are alternately comic or poignant.", 
+      "id_number": 3, 
+      "title": "NEW ENGLAND FISHERMEN, 30 SECOND STORIES 1984-1985 "
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "ENGLAND, ITALY, FRANCE, SPAIN, USA 1988", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "Original Length: 3-5 minutes each, 8mm video. 1988. Five Composers, Five countries Original Length: 305 minutes, 8mm video. 1988. \r\nFive Composers, Five Countries, portrays five contemporary composers from five separate countries. Each composer was commissioned to write a three-minute mini opera to be collectively produced by their own nation. My OTV (Opera TV) was to be seen like MTV. The operas were never made, but their remains small video portraits of each composer as well the documentation of the storyboard creation for each of the five operas.", 
+      "id_number": 2, 
+      "title": "5 COMPOSERS 5 COUNTRIES: England, Italy, France, Spain and USA. 1988"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "vp_project.category", 
+    "fields": {
+      "short_description": "TRADITIONAL DANCERS", 
+      "copyright_field": "Copyright 1971-2009 Joan Logue", 
+      "description": "In the Renaissance, kings rarely traveled to find a bride: instead, an artist was sent to paint her likeness, producing miniature portraits called \"Limnings\" Today, my video limnings are made to be seen as wearable art; to wear ones memories in a video pin.", 
+      "id_number": 1, 
+      "title": "DIGITAL LIMNINGS:  Traditional Dancers: Burma, China, Hawaii, Japan, North India, South India, Spain. 2001 "
+    }
+  }
+]
