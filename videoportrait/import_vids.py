@@ -35,13 +35,14 @@ for filename, category_id in categories.iteritems():
             new_vid.title = y[0].strip('"')
             new_vid.datetime = y[1].strip('"')
             new_vid.description = ""
-            new_vid.shotdate = datetime.datetime.now()
+            new_vid.shot_date = datetime.datetime.now()
             new_vid.video_name = y[2].strip('"')
             new_vid.thumbnail_name = y[3].strip().strip('"')
+            new_vid.category = current_category
             if len(y) == 5:
                 new_vid.aspectratio = y[4].strip().strip('"')
             else:
                 new_vid.aspectratio = "0"
-            print "title = %s, datetime = %s, description = %s, shotdate = %s, videofname = %s, thumbnailfname = %s, aspectratio = %s" % (new_vid.title,new_vid.datetime,new_vid.description,new_vid.shotdate,new_vid.video_name,new_vid.thumbnail_name,new_vid.aspectratio)
+            print "title = %s, datetime = %s, description = %s, shotdate = %s, videofname = %s, thumbnailfname = %s, category = %s, aspectratio = %s" % (new_vid.title,new_vid.datetime,new_vid.description,new_vid.shot_date,new_vid.video_name,new_vid.thumbnail_name,new_vid.category,new_vid.aspectratio)
             new_vid.save()
     
