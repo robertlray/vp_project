@@ -4,24 +4,24 @@ from vp_project.models import Video, Category
 from django.shortcuts import get_object_or_404
 import datetime
 
-categories = {'firstvideo.txt': 18,
-              'americanartists.txt': 17,
-              'civilrights.txt': 16,
-              'familyportraits.txt': 15,
-              'neighborhood.txt': 14,
-              'selfportraits.txt': 13,
-              'portraitsforinstallation.txt': 12,
-              'magritte.txt': 11,
-              'berlinseries.txt': 10,
-              'traditional_dance.txt': 9,
-              'valentine.txt': 8,
-              'newyork.txt': 7,
-              'frenchartists.txt': 6,
-              'sanfrancisco.txt': 5,
-              'frenchwriters.txt': 4,
-              'newengland.txt': 3,
-              'fivecomposers.txt': 2,
-              'digitallimmings.txt': 1
+categories = {'firstvideo.txt': 1,
+              'americanartists.txt': 2,
+              'civilrights.txt': 3,
+              'familyportraits.txt': 4,
+              'neighborhood.txt': 5,
+              'selfportraits.txt': 6,
+              'portraitsforinstallation.txt': 7,
+              'magritte.txt': 8,
+              'berlinseries.txt': 9,
+              'traditional_dance.txt': 10,
+              'valentine.txt': 11,
+              'newyork.txt': 12,
+              'frenchartists.txt': 13,
+              'sanfrancisco.txt': 14,
+              'frenchwriters.txt': 15,
+              'newengland.txt': 16,
+              'fivecomposers.txt': 17,
+              'digitallimmings.txt': 18
               }
 for filename, category_id in categories.iteritems():
     current_category = get_object_or_404(Category, pk=category_id)
