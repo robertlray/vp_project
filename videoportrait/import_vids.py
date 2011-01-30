@@ -32,8 +32,8 @@ for filename, category_id in categories.iteritems():
         y = x.split(',')
         if len(y) >= 4:
             new_vid = Video()
-            new_vid.title = y[0].strip('"')
-            new_vid.datetime = y[1].strip('"')
+            new_vid.title = y[0].strip('"').replace("&sbquo;",",").replace("&quot;",'"').replace("&eacute;","e")
+            new_vid.datetime = y[1].strip('"').replace("&sbquo;",",")
             new_vid.description = ""
             new_vid.shot_date = datetime.datetime.now()
             new_vid.video_name = y[2].strip('"')
