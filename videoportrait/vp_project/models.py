@@ -8,8 +8,6 @@ class Category(models.Model):
     short_description = models.CharField(max_length=255)
     copyright_field = models.CharField(max_length=255)
     id_number = models.IntegerField()
-    def sorted_categories(self):
-        return self.categories.order_by('id_number')
     def __unicode__(self):
         return self.title
 class Video(models.Model):
